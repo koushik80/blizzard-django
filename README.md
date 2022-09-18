@@ -1,6 +1,9 @@
 # Hi there👋! Here goes below my Project information
 
-<div align="center"><a href="">A One-Stop Sourcing Hub</a></div><br>
+<div>
+<h4 align="center"><a href="">ßLIZZARD-A One-Stop Sourcing Hub</a></h4>
+</div>
+<br>
 
 <h3 align="left">Abstract: :speech_balloon:</h3>
 
