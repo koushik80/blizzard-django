@@ -2,8 +2,11 @@
 
 <div align="center"><a href="">A One-Stop Sourcing Hub</a></div><br>
 
+<h3 align="left">Abstract: :speech_balloon:</h3>
+
 <div align="left">This application will be built to learn and implement as a part of an internship where the main target is to gain deeper knowledge about web development. And the goal is to analyze and learn tools for web back-end development such as Python programming Language and Django web framework, practice building complex systems using them, and learn to design server architecture. The challenge will make my skills stronger for my future career. The implementation strives to be simple.<br>
-N.B: This project is underdevelopment and latest information will be updated in this README during the development ....</div>
+<h4 align="left">N.B: This project is underdevelopment and I will keep updating latest information in this README during the development period....</h4>
+</div>
 
 
 <h3 align="left">Technologies: :computer:</h3>
@@ -19,7 +22,7 @@ N.B: This project is underdevelopment and latest information will be updated in 
 <li>VS code</li>
 </ul>
 
-<h3 align="left">Learning Objective: :computer:</h3>
+<h3 align="left">Learning Objective: :books:</h3>
 
 <ul>
 <p>Make a real project according to the client’s requirements</p>
@@ -44,7 +47,7 @@ N.B: This project is underdevelopment and latest information will be updated in 
 <p>Add Custom Domain</p>
 </ul>
 
-<h3 align="left"> Prerequisites: </h3>
+<h3 align="left"> Prerequisites: :gear:</h3>
 <p align="left">To be able to set up and run the project you need</p>
 <ul>
 <li>python3</li>
@@ -65,7 +68,7 @@ N.B: This project is underdevelopment and latest information will be updated in 
 <li>pip install -r requirements.txt</li>
 </ul>
 
-<h4 align="left">Migrate Django models:</h4>
+<h4 align="left">Migrate Django models: :green_book:</h4>
 <ul>
 <li>python manage.py makemigrations</li>
 <li>python manage.py migrate</li>
@@ -73,13 +76,14 @@ N.B: This project is underdevelopment and latest information will be updated in 
 
 <p align="left">By default, the project runs with DEBUG=True and SQLite database.</p>
 
-<h4 align="left">Now you should be able to run the project locally:</h4>
+<h4 align="left">Now you should be able to run the project locally: :man_technologist:</h4>
 <ul>
 <li>python manage.py runserver</li>
 <li></li>
 </ul>
+<p align="left">The server should be running on localhost: 8000</p>
 
-<h3 align="left">References: </h3>
+<h3 align="left">References: :paperclips:</h3>
 
 <ul>
 <li><a href=""></a></li>
