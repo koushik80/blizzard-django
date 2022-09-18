@@ -2,7 +2,7 @@
 
 <div align="center"><a href="">A One-Stop Sourcing Hub</a></div><br>
 
-<div align="center">This application will be built to learn and implement as a part of an internship where the main target is to gain deeper knowledge about web development. And the goal is to analyze and learn tools for web back-end development such as Python programming Language and Django web framework, practice building complex systems using them, and learn to design server architecture. The challenge will make my skills stronger for my future career. The implementation strives to be simple.<br>
+<div align="left">This application will be built to learn and implement as a part of an internship where the main target is to gain deeper knowledge about web development. And the goal is to analyze and learn tools for web back-end development such as Python programming Language and Django web framework, practice building complex systems using them, and learn to design server architecture. The challenge will make my skills stronger for my future career. The implementation strives to be simple.<br>
 N.B: This project is underdevelopment and latest information will be updated in this README during the development ....</div>
 
 
