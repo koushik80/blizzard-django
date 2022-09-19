@@ -68,6 +68,7 @@
 <li>pip install virtualenv</li>
 <li>source env/bin/activate</li>
 <li>pip install django==3.0.7</li>
+<li>pip install psycopg2-binary</li>
 <li>pip install -r requirements.txt</li>
 </ul>
 
@@ -89,6 +90,9 @@
 <h3 align="left">References: :paperclips:</h3>
 
 <ul>
+<li><a href="https://docs.djangoproject.com/en/4.1/"></a>django</li>
+<li><a href="https://www.udemy.com/"></a>udemy</li>
+<li><a href="https://unsplash.com/s/photos/jpg"></a>Unsplash</li>
 <li><a href=""></a></li>
 <li><a href=""></a></li>
 <li><a href=""></a></li>
