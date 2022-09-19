@@ -1,7 +1,7 @@
 # Hi there👋! Here goes below my Project information
 
 <div>
-<h4 align="center"><a href="">ßLIZZARD @ A One-Stop Sourcing Hub</a></h4>
+<h4 align="center"><a href="">ßLIZZARD @ A One-Stop Car Hub</a></h4>
 </div>
 <br>
 
