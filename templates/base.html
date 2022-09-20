@@ -25,7 +25,7 @@
     <link rel="stylesheet" type="text/css"  href="{% static 'css/jnoty.css' %}">
 
     <!-- Custom stylesheet -->
-    <link rel="stylesheet" type="text/css" href="style_sheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
     <link rel="stylesheet" type="text/css" id="style_sheet" href="{% static 'css/skins/red.css' %}">
 
     <!-- Favicon icon -->
@@ -117,8 +117,6 @@
 </header>
 <!-- Main header end -->
 
-{% block content %}
-
 <script src="{% static 'js/jquery-2.2.0.min.js' %}"></script>
 <script src="{% static 'js/popper.min.js' %}"></script>
 <script src="{% static 'js/bootstrap.min.js' %}"></script>
@@ -144,5 +142,6 @@
 
 </html>
 
+{% block content %}
 
 {% endblock %}
