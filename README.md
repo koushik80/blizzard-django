@@ -17,6 +17,7 @@
 <ul>
 <li>HTML</li>
 <li>Bootstrap</li>
+<li>JavaScript</li>
 <li>Django</li>
 <li>PostgreSQL</li>
 <li>Git</li>
