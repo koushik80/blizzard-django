@@ -94,6 +94,8 @@
 <li><a href="https://docs.djangoproject.com/en/4.1/"></a>django</li>
 <li><a href="https://www.udemy.com/"></a>udemy</li>
 <li><a href="https://unsplash.com/s/photos/jpg"></a>Unsplash</li>
+<li><a href="https://www.youtube.com/watch?v=QaZrWIvAFsA"></a>Recoding</li>
+<li><a href="https://postgresapp.com/"></a>Postgres.app</li>
 <li><a href=""></a></li>
 <li><a href=""></a></li>
 <li><a href=""></a></li>
