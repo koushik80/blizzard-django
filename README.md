@@ -70,6 +70,7 @@
 <li>source env/bin/activate</li>
 <li>pip install django==3.0.7</li>
 <li>pip install psycopg2-binary==2.8.6</li>
+<li>python -m pip install Pillow</li>
 <li>pip install -r requirements.txt</li>
 </ul>
 
@@ -79,15 +80,15 @@
 <li>python manage.py collectstatic</li>
 </ul>
 
-<h4 align="left">Migrate Django models: :green_book:</h4>
-<ul>
-<li>python manage.py migrate</li>
-<li>python manage.py makemigrations</li>
-</ul>
-
 <h4 align="left">Create Django model: :green_book:</h4>
 <ul>
 <li>python manage.py createsuperuser</li>
+</ul>
+
+<h4 align="left">Migrate Django models: :green_book:</h4>
+<ul>
+<li>python manage.py makemigrations</li>
+<li>python manage.py migrate</li>
 </ul>
 
 <p align="left">By default, the project runs with DEBUG=True and SQLite database.</p>
@@ -104,7 +105,8 @@
 <li><a href="https://docs.djangoproject.com/en/4.1/"></a>django</li>
 <li><a href="https://www.udemy.com/"></a>udemy</li>
 <li><a href="https://unsplash.com/s/photos/jpg"></a>Unsplash</li>
-<li><a href="https://www.youtube.com/watch?v=QaZrWIvAFsA"></a>Recoding<li>
+<li><a href="https://www.youtube.com/watch?v=QaZrWIvAFsA"></a>Recoding
+</li>
 <li><a href="https://postgresapp.com/"></a>Postgres.app</li>
 <li><a href=""></a></li>
 <li><a href=""></a></li>
