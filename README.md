@@ -69,9 +69,14 @@
 <li>pip install virtualenv</li>
 <li>source env/bin/activate</li>
 <li>pip install django==3.0.7</li>
-<li>pip install psycopg2-binary</li>
-<li>pip install -r requirements.txt</li>
 <li>pip install psycopg2-binary==2.8.6</li>
+<li>pip install -r requirements.txt</li>
+</ul>
+
+<h4 align="left">Collecting data from static: :green_book:</h4>
+
+<ul>
+<li>python manage.py collectstatic</li>
 </ul>
 
 <h4 align="left">Migrate Django models: :green_book:</h4>
@@ -90,7 +95,6 @@
 <h4 align="left">Now you should be able to run the project locally: :man_technologist:</h4>
 <ul>
 <li>python manage.py runserver</li>
-<li></li>
 </ul>
 <p align="left">The server should be running on localhost: 8000</p>
 
