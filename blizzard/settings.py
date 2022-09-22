@@ -79,7 +79,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'blizzard_db',
         'USER': 'postgres',
-        'PASSWORD': '#####',
+        'PASSWORD': 'Rajon123456',
         'HOST': 'localhost',
     }
 }
