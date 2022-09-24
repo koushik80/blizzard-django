@@ -71,6 +71,7 @@
 <li>pip install django==3.0.7</li>
 <li>pip install psycopg2-binary==2.8.6</li>
 <li>python -m pip install Pillow</li>
+<li>pip install django-ckeditor</li>
 <li>pip install -r requirements.txt</li>
 </ul>
 

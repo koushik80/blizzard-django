@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'ckeditor',
 ]
 
 MIDDLEWARE = [
@@ -84,6 +85,8 @@ DATABASES = {
         'HOST': 'localhost',
     }
 }
+
+DEFAULT_AUTO_FIELD='django.db.models.AutoField'
 
 
 # Password validation
