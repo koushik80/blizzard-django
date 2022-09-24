@@ -4,7 +4,7 @@
 <html>
 
 <head>
-    <title></title>
+    <title>ßLIZZARD Auto Oy {% block title %}    {% endblock %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
 
@@ -29,7 +29,7 @@
     <link rel="stylesheet" type="text/css" id="style_sheet" href="{% static 'css/skins/red.css' %}">
 
     <!-- Favicon icon -->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" >
+    <link rel="shortcut icon" href="{% static 'img/dev.png' %}" type="image/x-icon" >
 
     <!-- Google fonts -->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800%7CPlayfair+Display:400,700%7CRoboto:100,300,400,400i,500,700">
@@ -48,7 +48,9 @@
 
 {% include 'includes/navbar.html' %}
 
+
 {% block content %}
+
 
 {% endblock %}
 
@@ -56,7 +58,7 @@
 <div id="full-page-search">
     <button type="button" class="close">×</button>
     <form action="https://storage.googleapis.com/theme-vessel/carhouse/index.html#" class="search-header">
-        <input type="search" value="" placeholder="type keyword(s) here. Eg: audi, benz etc" />
+        <input type="search" value="" placeholder="type keyword(s) here. Eg: Volvo, audi, benz etc" />
         <button type="submit" class="btn btn-sm button-theme">Search</button>
     </form>
 </div>
