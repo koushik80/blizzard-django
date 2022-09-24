@@ -1,6 +1,7 @@
 from django.db import models
 from datetime import datetime
 from ckeditor.fields import RichTextField
+from multiselectfield import MultiSelectField
 
 
 
@@ -48,6 +49,8 @@ class Car(models.Model):
         ('Hämeenlinna', 'Hämeenlinna'),
         ('Kotka, Kouvola', 'Kotka, Kouvola'),
         ('Helsinki', 'Helsinki'),
+        ('Vantaa', 'Vantaa'),
+        ('Espoo', 'Espoo'),
         ('Turku', 'Turku'),
         ('Mariehamn', 'Mariehamn'),
     )
@@ -131,7 +134,7 @@ class Car(models.Model):
     car_photo_2 = models.ImageField(upload_to='photos/%Y/%m/%d/', blank=True)
     car_photo_3 = models.ImageField(upload_to='photos/%Y/%m/%d/', blank=True)
     car_photo_4 = models.ImageField(upload_to='photos/%Y/%m/%d/', blank=True)
-    features = models.CharField(choices=features_choices, max_length=100)
+    features = MultiSelectField(choices=features_choices, max_length=1000)
     body_style = models.CharField(max_length=100)
     engine = models.CharField(max_length=100)
     transmission = models.CharField(max_length=100)
