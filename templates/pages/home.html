@@ -1,6 +1,9 @@
 {% extends 'base.html' %}
 
+{% block title %} | Home {% endblock %}
 {% block content %}
+
+{% load humanize %}
 
 {% load static %}
 
@@ -139,7 +142,7 @@
                             <a href="car-details.html" class="car-img">
                                 <div class="tag-2">Featured</div>
                                 <div class="price-box">
-                                    <span>€{{car.price}}</span>
+                                    <span>€{{car.price | intcomma}}</span>
                                 </div>
                                 <img class="d-block w-100" src="{{car.car_photo.url}}" alt="car" style="min-height: 232px; max-height: 232px;">
                             </a>
@@ -187,7 +190,7 @@
                             </div>
                             <ul class="facilities-list clearfix">
                                 <li>{{car.fuel_type}}</li>
-                                <li>{{car.mileage}} km</li>
+                                <li>{{car.mileage | intcomma}} km</li>
                                 <li>{{car.transmission}}</li>
                                 <li>{{car.body_style}}</li>
                                 <li>{{car.color}}</li>
@@ -231,7 +234,7 @@
                             <div class="facilities-list clearfix">
                                 <ul>
                                     <li>
-                                        <span><i class="flaticon-way"></i></span>{{car.mileage}} km
+                                        <span><i class="flaticon-way"></i></span>{{car.mileage | intcomma}} km
                                     </li>
                                     <li>
                                         <span><i class="flaticon-calendar-1"></i></span>{{car.year}}
@@ -294,7 +297,7 @@
                             <p class="cartype">{{car.body_style}}</p>
                         </div>
                         <div class="pull-right">
-                            <p class="price">€{{car.price}}</p>
+                            <p class="price">€{{car.price | intcomma}}</p>
                         </div>
                     </div>
                 </div>
