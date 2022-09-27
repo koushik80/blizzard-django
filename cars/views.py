@@ -9,8 +9,18 @@ def cars(request):
     paginator = Paginator(cars, 4)  #If we want to show 4 pages
     page = request.GET.get('page')
     paged_cars = paginator.get_page(page)
+
+    model_search = Car.objects.values_list('model', flat=True).distinct()
+    city_search = Car.objects.values_list('city', flat=True).distinct()
+    year_search = Car.objects.values_list('year', flat=True).distinct()
+    body_style_search = Car.objects.values_list('body_style', flat=True).distinct()
+
     data = {
         'cars': paged_cars,
+        'model_search': model_search,
+        'city_search': city_search,
+        'year_search': year_search,
+        'body_style_search': body_style_search,
     }
     return render(request, 'cars/cars.html', data)
 
@@ -24,6 +34,13 @@ def car_detail(request, id):
 
 def search(request):
     cars = Car.objects.order_by('-created_date')
+
+    model_search = Car.objects.values_list('model', flat=True).distinct()
+    city_search = Car.objects.values_list('city', flat=True).distinct()
+    year_search = Car.objects.values_list('year', flat=True).distinct()
+    body_style_search = Car.objects.values_list('body_style', flat=True).distinct()
+    transmission_search = Car.objects.values_list('transmission', flat=True).distinct()
+
 
     if 'keyword' in request.GET:
         keyword = request.GET['keyword']
@@ -50,8 +67,20 @@ def search(request):
         if body_style:
             cars = cars.filter(body_style__iexact=body_style)
 
+    if 'min_price' in request.GET:
+        min_price = request.GET['min_price']
+        max_price = request.GET['max_price']
+        if max_price:
+            cars = cars.filter(price__gte=min_price, price__lte=max_price) 
+            #gte = greater than or equal to
+            #lte = less than or equal to
 
     data = {
         'cars': cars,
+        'model_search': model_search,
+        'city_search': city_search,
+        'year_search': year_search,
+        'body_style_search': body_style_search,
+        'transmission_search': transmission_search,
     }
     return render(request, 'cars/search.html', data)

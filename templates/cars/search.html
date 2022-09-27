@@ -12,7 +12,7 @@
         <div class="breadcrumb-areas">
             <h1>Search Results</h1>
             <ul class="breadcrumbs">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="{% url 'home' %}">Home</a></li>
                 <li class="active">Search</li>
             </ul>
         </div>
@@ -29,43 +29,31 @@
                     <div class="row">
                         <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                             <div class="form-group">
-                                <select class="selectpicker search-fields" name="select-brand">
+                                <select class="selectpicker search-fields" name="model">
                                     <option disabled="disabled" selected="selected">Select Model</option>
-                                    <option>Audi</option>
-                                    <option>BMW</option>
-                                    <option>Honda</option>
-                                    <option>Nissan</option>
+                                    {% for model in model_search %}
+                                      <option value="{{model}}">{{model}}</option>
+                                    {% endfor %}
                                 </select>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                             <div class="form-group">
-                                <select class="selectpicker search-fields" name="select-make">
-                                    <option disabled="disabled" selected="selected">Select Make</option>
-                                    <option>BMW</option>
-                                    <option>Honda</option>
-                                    <option>Lamborghini Huracán</option>
-                                    <option>Sports Car</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
-                            <div class="form-group">
-                                <select class="selectpicker search-fields" name="select-location">
+                                <select class="selectpicker search-fields" name="city">
                                     <option disabled="disabled" selected="selected">Select Location</option>
-                                    <option>Finland</option>
-                                    <option>Sweden</option>
+                                    {% for city in city_search %}
+                                      <option value="{{city}}">{{city}}</option>
+                                    {% endfor %}
                                 </select>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                             <div class="form-group">
-                                <select class="selectpicker search-fields" name="select-year">
+                                <select class="selectpicker search-fields" name="year">
                                     <option disabled="disabled" selected="selected">Select Year</option>
-                                    <option>2016</option>
-                                    <option>2017</option>
-                                    <option>2018</option>
-                                    <option>2019</option>
+                                    {% for year in year_search %}
+                                      <option value="{{year}}">{{year}}</option>
+                                    {% endfor %}
                                 </select>
                             </div>
                         </div>
@@ -73,10 +61,11 @@
                     <div class="row">
                         <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                             <div class="form-group">
-                                <select class="selectpicker search-fields" name="select-type">
+                                <select class="selectpicker search-fields" name="body_style">
                                     <option disabled="disabled" selected="selected">Select Type Of Car</option>
-                                    <option>New Car</option>
-                                    <option>Used Car</option>
+                                    {% for body_style in body_style_search %}
+                                      <option value="{{body_style}}">{{body_style}}</option>
+                                    {% endfor %}
                                 </select>
                             </div>
                         </div>
@@ -84,15 +73,16 @@
                             <div class="form-group">
                                 <select class="selectpicker search-fields" name="transmission">
                                     <option disabled="disabled" selected="selected">Transmission</option>
-                                    <option>Automatic</option>
-                                    <option>Manual</option>
+                                    {% for transmission in transmission_search %}
+                                      <option value="{{transmission}}">{{transmission}}</option>
+                                    {% endfor %}
                                 </select>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                             <div class="form-group">
                                 <div class="range-slider">
-                                    <div data-min="0" data-max="250,000" data-unit="EUR" data-min-name="min_price" data-max-name="max_price" class="range-slider-ui ui-slider" aria-disabled="false"></div>
+                                    <div data-min="0" data-max="250000" data-unit="EUR" data-min-name="min_price" data-max-name="max_price" class="range-slider-ui ui-slider" aria-disabled="false"></div>
                                     <div class="clearfix"></div>
                                 </div>
                             </div>
