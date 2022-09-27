@@ -41,61 +41,45 @@
         </div>
         <!-- Search box 3 start -->
         <div class="search-box-4 sb-8">
-            <form action="#" method="">
+            <form action="{% url 'search' %}" method="">
                 <div class="form-group">
                     <input type="text" name="keyword" placeholder="Search by name" class="form-control">
                 </div>
                 <div class="form-group">
-                    <select class="form-control search-fields" name="select-brand">
-                        <option selected="true" disabled="disabled">Brand</option>
-                        <option>Volvo</option>
-                        <option>Audi</option>
-                        <option>BMW</option>
-                        <option>Honda</option>
-                        <option>Nissan</option>
-                    </select>
-                </div>
-                <div class="form-group">
                     <select class="form-control search-fields" name="select-make">
                         <option selected="true" disabled="disabled">Model</option>
-                        <option>Volvo XC60</option>
-                        <option>Volvo S90</option>
-                        <option>BMW 5 series</option>
-                        <option>BMW X1</option>
-                        <option>Honda Accord</option>
-                        <option>Lamborghini Huracán</option>
-                        <option>Sports Car</option>
+                        {% for model in model_search %}
+                           <option value="{{model}}">{{model}}</option>
+                        {% endfor %}
                     </select>
                 </div>
                 <div class="form-group">
                     <select class="form-control search-fields" name="select-location">
                         <option selected="true" disabled="disabled">Location</option>
-                        <option>Finland</option>
-                        <option>Sweden</option>
+                        {% for city in city_search %}
+                           <option value="{{city}}">{{city}}</option>
+                        {% endfor %}
                     </select>
                 </div>
                 <div class="form-group">
                     <select class="form-control search-fields" name="select-year">
                         <option selected="true" disabled="disabled">Year</option>
-                        <option>2016</option>
-                        <option>2017</option>
-                        <option>2018</option>
-                        <option>2019</option>
+                        {% for year in year_search %}
+                           <option value="{{year}}">{{year}}</option>
+                        {% endfor %}
                     </select>
                 </div>
                 <div class="form-group">
                     <select class="form-control search-fields" name="select-type">
                         <option selected="true" disabled="disabled">Select Type Of Car</option>
-                        <option>Sedan</option>
-                        <option>Sports</option>
-                        <option>Hatchback</option>
-                        <option>Pickup Truck</option>
-                        <option>SUV</option>
+                        {% for body_style in body_style_search %}
+                           <option value="{{body_style}}">{{body_style}}</option>
+                        {% endfor %}
                     </select>
                 </div>
                 <div class="range-slider clearfix">
                                 <label>Price</label>
-                                <div data-min="0" data-max="150000"  data-min-name="min_price" data-max-name="max_price" data-unit="EUR" class="range-slider-ui ui-slider" aria-disabled="false"></div>
+                                <div data-min="0" data-max="250000"  data-min-name="min_price" data-max-name="max_price" data-unit="EUR" class="range-slider-ui ui-slider" aria-disabled="false"></div>
                                 <div class="clearfix"></div>
                             </div>
                 <div class="form-group">
