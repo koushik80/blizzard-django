@@ -75,6 +75,7 @@
 <li>pip install django-ckeditor</li>
 <li>pip install django-multiselectfield</li>
 <li>pip install django-likert-field</li>
+<p>pip install django-star-ratings</p>
 <li>pip install django-material==0.5.1</li>
 <li>pip install -r requirements.txt</li>
 </ul>
