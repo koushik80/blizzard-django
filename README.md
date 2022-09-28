@@ -1,7 +1,7 @@
 # Hi there👋! Here goes below my Project information
 
 <div>
-<h4 align="center"><a href="">ßLIZZARD @ A One-Stop Car Hub</a></h4>
+<h4 align="center"><a href="">ßLIZZARD @ Accelerate the excitement</a></h4>
 </div>
 <br>
 
@@ -17,13 +17,14 @@
 <ul>
 <li>HTML</li>
 <li>Bootstrap</li>
+<li>Material design</li>
 <li>JavaScript</li>
 <li>Django</li>
 <li>PostgreSQL</li>
 <li>Git</li>
 <li>GitHub</li>
 <li>Heroku</li>
-<li>VS code</li>
+<li>VS Code</li>
 </ul>
 
 <h3 align="left">Learning Objective: :books:</h3>
@@ -73,6 +74,8 @@
 <li>python -m pip install Pillow</li>
 <li>pip install django-ckeditor</li>
 <li>pip install django-multiselectfield</li>
+<li>pip install django-likert-field</li>
+<li>pip install django-material==0.5.1</li>
 <li>pip install -r requirements.txt</li>
 </ul>
 
@@ -110,7 +113,7 @@
 <li><a href="https://www.youtube.com/watch?v=QaZrWIvAFsA"></a>Recoding
 </li>
 <li><a href="https://postgresapp.com/"></a>Postgres.app</li>
-<li><a href=""></a></li>
+<li><a href="https://pypi.org/project/django-likert-field/"></a>Likert field</li>
 <li><a href=""></a></li>
 <li><a href=""></a></li>
 <li><a href=""></a></li>
