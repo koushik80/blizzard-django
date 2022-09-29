@@ -11,6 +11,24 @@
 <h4 align="left">N.B: This project is underdevelopment and I will keep updating latest information in this README during the development period....</h4>
 </div>
 
+<h3 align="left">Target Group: :family_man_woman_girl_girl:</h3>
+
+<ul>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+
+
+<h3 align="left">User Stories: :bust_in_silhouette:</h3>
+
+<ul>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
 
 <h3 align="left">Technologies: :computer:</h3>
 
@@ -91,7 +109,7 @@
 <li>python manage.py createsuperuser</li>
 </ul>
 
-<h4 align="left">Migrate Django models: :green_book:</h4>
+<h4 align="left">Migrate Django models: :arrows_clockwise:</h4>
 <ul>
 <li>python manage.py makemigrations</li>
 <li>python manage.py migrate</li>
