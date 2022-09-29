@@ -479,3 +479,9 @@ $(function () {
         }
     }).trigger("resize");
 })(jQuery);
+
+// to disappear error messages after certain moment (4sec)
+
+setTimeout(function(){
+    $('#message').fadeOut('slow');
+ }, 4000)
