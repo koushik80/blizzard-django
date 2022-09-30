@@ -53,7 +53,7 @@
 <li>Bootstrap</li>
 <li>Material design</li>
 <li>JavaScript</li>
-<li>Django</li>
+<li>Python: Django</li>
 <li>PostgreSQL</li>
 <li>Git</li>
 <li>GitHub</li>
