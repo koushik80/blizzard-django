@@ -7,9 +7,11 @@
 
 <h3 align="left">Abstract: :speech_balloon:</h3>
 
-<div align="left">This application will be built to learn and implement as a part of an internship where the main target is to gain deeper knowledge about web development. And the goal is to analyze and learn tools for web back-end development such as Python programming Language and Django web framework, practice building complex systems using them, and learn to design server architecture. The challenge will make my skills stronger for my future career. The implementation strives to be simple.<br>
-<h4 align="left">N.B: This project is underdevelopment and I will keep updating latest information in this README during the development period....</h4>
+<div align="left">This application will be built to learn and implement as a part of an internship where the main target is to gain deeper knowledge about web development. And the goal is to analyze and learn tools for web back-end development such as Python programming Language and Django web framework, practice building complex systems using them, and learn to design server architecture. The challenge will make my skills stronger. The implementation strives to be simple.<br>
+<h4 align="left">N.B: This project is underdevelopment and I will keep updating latest information in this README during the development period....Project will be deployed & linked-up after finalized</h4>
 </div>
+
+---
 
 <h3 align="left">Target Group: :family_man_woman_girl_girl:</h3>
 
@@ -20,6 +22,7 @@
 <li></li>
 </ul>
 
+---
 
 <h3 align="left">User Stories: :bust_in_silhouette:</h3>
 
@@ -29,6 +32,8 @@
 <li></li>
 <li></li>
 </ul>
+
+---
 
 <h3 align="left">Technologies: :computer:</h3>
 
@@ -44,6 +49,8 @@
 <li>Heroku</li>
 <li>VS Code</li>
 </ul>
+
+---
 
 <h3 align="left">Learning Objective: :books:</h3>
 
@@ -70,6 +77,8 @@
 <p>Add Custom Domain</p>
 </ul>
 
+---
+
 <h3 align="left"> Prerequisites: :gear:</h3>
 <p align="left">To be able to set up and run the project you need</p>
 <ul>
@@ -78,8 +87,10 @@
 <li>virtualenv</li>
 </ul>
 
+---
+
 <h3 align="left">Instruction: :pager:</h3>
-<p align="left">This is the guide on how to setup, run and deploy Blizzard back-end server.To install run...</p>
+<p align="left">This is the guide on how to setup, run and deploy ßLIZZARD back-end server.To install run...</p>
 <ul>
 <li>sudo apt-get update</li>
 <li>sudo apt-get install python3</li>
@@ -92,11 +103,14 @@
 <li>python -m pip install Pillow</li>
 <li>pip install django-ckeditor</li>
 <li>pip install django-multiselectfield</li>
+<li>pip install django-allauth</>
 <li>pip install django-likert-field</li>
-<p>pip install django-star-ratings</p>
+<li>pip install django-star-ratings</li>
 <li>pip install django-material==0.5.1</li>
 <li>pip install -r requirements.txt</li>
 </ul>
+
+---
 
 <h4 align="left">Collecting data from static: :green_book:</h4>
 
@@ -123,6 +137,8 @@
 </ul>
 <p align="left">The server should be running on localhost: 8000</p>
 
+---
+
 <h3 align="left">References: :paperclips:</h3>
 
 <ul>
@@ -137,3 +153,5 @@
 <li><a href=""></a></li>
 <li><a href=""></a></li>
 </ul>
+
+---
