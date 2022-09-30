@@ -5,6 +5,17 @@
 </div>
 <br>
 
+---
+
+<div>
+<h3 align="left">Project Gallery: :oncoming_automobile:</h3>
+
+<img width="1300" alt="g" src="https://user-images.githubusercontent.com/89943976/193223030-a6d96080-d810-4e80-874e-802d6879164c.gif">
+
+</div>
+
+---
+
 <h3 align="left">Abstract: :speech_balloon:</h3>
 
 <div align="left">This application will be built to learn and implement as a part of an internship where the main target is to gain deeper knowledge about web development. And the goal is to analyze and learn tools for web back-end development such as Python programming Language and Django web framework, practice building complex systems using them, and learn to design server architecture. The challenge will make my skills stronger. The implementation strives to be simple.<br>
