@@ -19,7 +19,7 @@
 <h3 align="left">Abstract: :speech_balloon:</h3>
 
 <div align="left">This application will be built to learn and implement as a part of an internship where the main target is to gain deeper knowledge about web development. And the goal is to analyze and learn tools for web back-end development such as Python programming Language and Django web framework, practice building complex systems using them, and learn to design server architecture. The challenge will make my skills stronger. The implementation strives to be simple.<br>
-<h4 align="left">N.B: This project is underdevelopment and I will keep updating latest information in this README during the development period....Project will be deployed & linked-up after finalized</h4>
+<h4 align="left">N.B: This project is under development, and I will keep updating the latest information on features, user stories and target groups of this web project in this README during the development period...The project will be deployed & linked up after finalized</h4>
 </div>
 
 ---
