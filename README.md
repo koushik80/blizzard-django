@@ -27,7 +27,7 @@
 <h3 align="left">Target Group: :family_man_woman_girl_girl:</h3>
 
 <ul>
-<li></li>
+<li>Will be added soon</li>
 <li></li>
 <li></li>
 <li></li>
@@ -38,7 +38,7 @@
 <h3 align="left">User Stories: :bust_in_silhouette:</h3>
 
 <ul>
-<li></li>
+<li>Will be added soon</li>
 <li></li>
 <li></li>
 <li></li>
