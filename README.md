@@ -16,6 +16,16 @@
 
 ---
 
+---
+
+<div>
+<img width="1716" alt="admin-panel3" src="https://user-images.githubusercontent.com/89943976/193468087-f3bfcca5-ab09-4dcf-97eb-85fb7bf1c221.png">
+<img width="1718" alt="admin-panel2" src="https://user-images.githubusercontent.com/89943976/193468088-69988afe-45f9-446b-a5a4-313d0116ecd9.png">
+<img width="1720" alt="admin-panel" src="https://user-images.githubusercontent.com/89943976/193468091-e3f8ec1a-c0cb-4021-942e-fb30fe35a35b.png">
+</div>
+
+---
+
 <h3 align="left">Abstract: :speech_balloon:</h3>
 
 <div align="left">This application will be built to learn and implement as a part of an internship where the main target is to gain deeper knowledge about web development. And the goal is to analyze and learn tools for web back-end development such as Python programming Language and Django web framework, practice building complex systems using them, and learn to design server architecture. The challenge will make my skills stronger. The implementation strives to be simple.<br>
@@ -42,13 +52,22 @@
 <li>Users have the option to search by Price range.</li>
 <li>Users can check the Latest and Featured cars.</li>
 <li>When the user clicks the Read more button on the home page then he will be redirected to the services page.</li>
+<li>Users are able to send messages by clicking Get in Touch button form the home page.</li>
 <li>Users can be connected to any of the team members by their social media link.</li>
 <li>If the user clicks on one specific model, he or she can check the description of the car, more pictures, and features.</li>
 <li>If a user is interested in one specific model, then he or she can send an inquiry by sending a message.</li>
+<li>Users can register and login.</li>
+<li>Users can also login with Facebook and Google accounts.</li>
+<li>After login users will be redirected to the dashboard and see their inquiries.</li>
+<li>Admin panel for the owner of the company.</li>
+<li>Users are able to send messages by clicking Get in Touch button form the home page.</li>
 <li></li>
 <li></li>
 <li></li>
 <li></li>
+<li></li>
+<li></li>
+<li>Working on dashboard functionality, customer review,Inquiry form, Contact page, sending email, Forcing user to login, Checking for existing inquiry... </li>
 </ol>
 
 ---
