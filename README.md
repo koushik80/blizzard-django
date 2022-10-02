@@ -37,12 +37,19 @@
 
 <h3 align="left">User Stories: :bust_in_silhouette:</h3>
 
-<ul>
-<li>Will be added soon</li>
+<ol type="1">
+<li>Users can select a car by Name, Model, Location and Type of Car.</li>
+<li>Users have the option to search by Price range.</li>
+<li>Users can check the Latest and Featured cars.</li>
+<li>When the user clicks the Read more button on the home page then he will be redirected to the services page.</li>
+<li>Users can be connected to any of the team members by their social media link.</li>
+<li>If the user clicks on one specific model, he or she can check the description of the car, more pictures, and features.</li>
+<li>If a user is interested in one specific model, then he or she can send an inquiry by sending a message.</li>
 <li></li>
 <li></li>
 <li></li>
-</ul>
+<li></li>
+</ol>
 
 ---
 
