@@ -28,6 +28,7 @@
         <div class="car-details-section">
           <!-- Heading start -->
           <div class="heading-car clearfix">
+            {% include 'includes/messages.html' %}
             <div class="pull-left">
               <h3>{{single_car.car_title}}</h3>
               <h6>
@@ -293,7 +294,7 @@
                       <div class="row">
                         <div class="col">
                           <input type="text" name="first_name" class="form-control" placeholder="First Name"
-                            {% if user.is_authenticated %} value="{{user.first_name}}" 
+                            {% if user.is_authenticated %} value="{{user.first_name}}"
                             {% endif %}
                             required/>
                         </div>

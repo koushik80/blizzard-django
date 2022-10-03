@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect
 from .models import Contact
+from django.contrib import messages
 
 # Create your views here.
 
@@ -23,5 +24,6 @@ def inquiry(request):
         city=city, state=state, email=email, phone=phone, message=message)
 
         contact.save()
+        messages.success(request, 'Your request has been submitted, we will get back to you shortly soon.')
 
-    return redirect('/cars/'+car_id)
+        return redirect('/cars/'+car_id)

@@ -51,16 +51,17 @@
 <li>Users can select a car by Name, Model, Location and Type of Car.</li>
 <li>Users have the option to search by Price range.</li>
 <li>Users can check the Latest and Featured cars.</li>
-<li>When the user clicks the Read more button on the home page then he will be redirected to the services page.</li>
+<li>When the user clicks the Read more button on the home page, he will be redirected to the services page.</li>
 <li>Users are able to send messages by clicking Get in Touch button form the home page.</li>
-<li>Users can be connected to any of the team members by their social media link.</li>
+<li>User can send an inquiry message to the dealer when he is interested in a specific model to know more details.</li>
+<li>Users can connect to any team members by their social media link.</li>
 <li>If the user clicks on one specific model, he or she can check the description of the car, more pictures, and features.</li>
 <li>If a user is interested in one specific model, then he or she can send an inquiry by sending a message.</li>
 <li>Users can register and login.</li>
 <li>Users can also login with Facebook and Google accounts.</li>
 <li>After login users will be redirected to the dashboard and see their inquiries.</li>
+<li>Users can send messages by clicking Get in Touch button on the home page.</li>
 <li>Admin panel for the owner of the company.</li>
-<li>Users are able to send messages by clicking Get in Touch button form the home page.</li>
 <li></li>
 <li></li>
 <li></li>
