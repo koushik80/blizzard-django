@@ -156,3 +156,11 @@ MESSAGE_TAGS = {
 }
 
 SITE_ID = 1
+
+# Email sending : https://docs.djangoproject.com/en/4.1/topics/email/
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 465
+EMAIL_HOST_USER = 'finfotek80@gmail.com'
+EMAIL_HOST_PASSWORD = ''
+EMAIL_USE_TLS = True
