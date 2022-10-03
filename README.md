@@ -67,7 +67,7 @@
 <li></li>
 <li></li>
 <li></li>
-<li>Working on dashboard functionality, customer review,Inquiry form, Contact page, sending email, Forcing user to login, Checking for existing inquiry... </li>
+<li>Working on dashboard functionality, customer review,Inquiry form,Contact page, sending email, Forcing user to login, Checking for existing inquiry... </li>
 </ol>
 
 ---

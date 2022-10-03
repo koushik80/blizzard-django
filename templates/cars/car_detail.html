@@ -281,7 +281,7 @@
                 </div>
                 <div class="modal-body">
                   <form action="{% url 'inquiry' %}" method="POST">
-                    {% csrf_token %} 
+                    {% csrf_token %}
                     {% if user.is_authenticated %}
                     <input type="hidden" name="user_id" value="{{user.id}}" />
                     {% else %}
@@ -294,13 +294,13 @@
                         <div class="col">
                           <input type="text" name="first_name" class="form-control" placeholder="First Name"
                             {% if user.is_authenticated %} value="{{user.first_name}}" 
-                            {% endif %} 
+                            {% endif %}
                             required/>
                         </div>
                         <div class="col">
                           <input type="text" name="last_name" class="form-control" placeholder="Last Name"
-                            {% if user.is_authenticated %} value="{{user.last_name}}" 
-                            {% endif %} 
+                            {% if user.is_authenticated %} value="{{user.last_name}}"
+                            {% endif %}
                             required/>
                         </div>
                       </div>
@@ -359,9 +359,7 @@
                     <div class="form-group">
                       <div class="row">
                         <div class="col">
-                          <label for="name" class="col-form-label"
-                            >You can reach me by email at</label
-                          >
+                          <label for="name" class="col-form-label">You can reach me by email at</label>
                           <input
                             type="email"
                             name="email"
@@ -386,7 +384,7 @@
                         name="message"
                         class="form-control"
                         placeholder="Enter your message here (optional)">
-                    </textarea>
+                      </textarea>
                     </div>
                     <hr />
                     <input
