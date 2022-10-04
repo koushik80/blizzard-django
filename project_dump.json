@@ -357,7 +357,7 @@
 {
     "model": "auth.user",
     "fields": {
-        "password": "pbkdf2_sha256$390000$2ZYuCrppdj5tVzpDcS68Qg$RATudh1JHMbgUM+FoA/xHcJkXvyPlWKJ+bd6Yi1x+MA=",
+        "password": "",
         "last_login": "2022-10-04T16:41:06.036Z",
         "is_superuser": true,
         "username": "djangoadmin",
@@ -374,7 +374,7 @@
 {
     "model": "auth.user",
     "fields": {
-        "password": "pbkdf2_sha256$390000$99dpOut0BtpcODj4t9Yj4Z$F/Yjv2lZ74SA2mB0Qi02O5wVVlRXjOUd797JqL1PKzQ=",
+        "password": "",
         "last_login": "2022-10-04T14:37:18.958Z",
         "is_superuser": false,
         "username": "rajon",
@@ -391,7 +391,7 @@
 {
     "model": "auth.user",
     "fields": {
-        "password": "!gRy6Xomc5ATVpY3En3mYfFqb7MaWBgMKZFJLbOsA",
+        "password": "",
         "last_login": "2022-09-30T16:11:54.453Z",
         "is_superuser": false,
         "username": "raj",
@@ -408,7 +408,7 @@
 {
     "model": "auth.user",
     "fields": {
-        "password": "!AOnaAuamIr9YVC9iD5oYh1hzxtRqe6GO8arPHt9I",
+        "password": "",
         "last_login": "2022-10-02T19:20:38.416Z",
         "is_superuser": false,
         "username": "finfotek",
@@ -467,8 +467,8 @@
     "fields": {
         "provider": "facebook",
         "name": "Facebook login",
-        "client_id": "1151420165725051",
-        "secret": "4fc3a55253316ef0d2764272d0837e47",
+        "client_id": "",
+        "secret": "",
         "key": "",
         "sites": [
             [
@@ -483,8 +483,8 @@
     "fields": {
         "provider": "google",
         "name": "Google Login",
-        "client_id": "370255906347-vl0lr3ntvt76mt8tj5ja3jt7o0rv218o.apps.googleusercontent.com",
-        "secret": "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",
+        "client_id": "",
+        "secret": "",
         "key": "",
         "sites": [
             [
