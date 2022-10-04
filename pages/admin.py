@@ -1,5 +1,6 @@
 from django.contrib import admin
 from .models import Team
+from .models import Client
 from django.utils.html import format_html
 
 # Register your models here.
@@ -15,4 +16,13 @@ class TeamAdmin(admin.ModelAdmin):
     list_filter = ('designation',)
 
 admin.site.register(Team, TeamAdmin)
+
+class ClientAdmin(admin.ModelAdmin):
+    list_display = ('name', 'email', 'subject', 'phone', 'message')
+    list_display_links = ('name', 'email', 'message')
+    search_fields = ('name', 'subject', 'email')
+    list_per_page = 10
+    list_filter = ('name', 'email', 'subject')
+
+admin.site.register(Client, ClientAdmin)
 
