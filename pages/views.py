@@ -47,17 +47,9 @@ def contact(request):
         phone = request.POST['phone']
         message = request.POST['message']
 
-        data = {
-            'name': name,
-            'email': email,
-            'subject': subject,
-            'phone': phone,
-            'message': message,
-        }
-
-
         email_subject = 'You have a new message from Blizzard Auto website regarding ' + subject
         message_body = 'Name: ' + name + '. Email: ' + email + '. Phone: ' + phone + '. Message: ' + message
+
         admin_info = User.objects.get(is_superuser=True)
         admin_email = admin_info.email
         send_mail( # https://docs.djangoproject.com/en/4.1/topics/email/
@@ -70,4 +62,4 @@ def contact(request):
         messages.success(request, 'Thank you for contacting us. We will get back to you shortly')
         return redirect('contact')
 
-    return render(request, 'pages/contact.html', data)
+    return render(request, 'pages/contact.html')

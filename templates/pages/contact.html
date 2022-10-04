@@ -26,6 +26,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
         </div>
         <form action="{% url 'contact' %}" method="POST" enctype="multipart/form-data">
+            {% include 'includes/messages.html' %}
             {% csrf_token %}
             <div class="row">
                 <div class="col-lg-7">
