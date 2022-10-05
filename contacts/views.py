@@ -34,7 +34,7 @@ def inquiry(request):
 
         admin_info = User.objects.get(is_superuser=True)
         admin_email = admin_info.email
-        send_mail( # https://docs.djangoproject.com/en/4.1/topics/email/
+        send_mail(
                 'New Car Inquiry',
                 'You have a new inquiry for the car ' + car_title + '. Please login to your admin panel for more info.',
                 'finfotek80@gmail.com',
@@ -46,3 +46,7 @@ def inquiry(request):
         messages.success(request, 'Your request has been submitted, we will get back to you shortly soon.')
 
         return redirect('/cars/'+car_id)
+
+
+
+# https://docs.djangoproject.com/en/4.1/topics/email/

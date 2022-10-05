@@ -5,6 +5,7 @@ from django.core.mail import send_mail
 from django.contrib.auth.models import User
 from django.contrib import messages
 
+
 # Create your views here.
 
 def home(request):
@@ -59,7 +60,9 @@ def contact(request):
                 [admin_email],
                 fail_silently=False,
             )
+
         messages.success(request, 'Thank you for contacting us. We will get back to you shortly')
         return redirect('contact')
+
 
     return render(request, 'pages/contact.html')

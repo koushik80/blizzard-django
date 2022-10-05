@@ -342,6 +342,7 @@
                             name="city"
                             class="form-control"
                             placeholder="City"
+                            {% if user.is_authenticated %} value="{{user.city}}"  {% endif %}
                             required
                           />
                         </div>
@@ -351,6 +352,7 @@
                             name="state"
                             class="form-control"
                             placeholder="State"
+                            {% if user.is_authenticated %} value="{{user.state}}"  {% endif %}
                             required
                           />
                         </div>
