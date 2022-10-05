@@ -144,7 +144,8 @@
 <li>pip install django-likert-field</li>
 <li>pip install django-star-ratings</li>
 <li>pip install django-material==0.5.1</li>
-<li>pip install -r requirements.txt</li>
+<li>pip freeze > requirements.txt</li>
+<li>pip install gunicorn psycopg2-binary</li>
 </ul>
 
 ---
@@ -186,7 +187,7 @@
 </li>
 <li><a href="https://postgresapp.com/"></a>Postgres.app</li>
 <li><a href="https://pypi.org/project/django-likert-field/"></a>Likert field</li>
-<li><a href=""></a></li>
+<li><a href="https://support.google.com/mail/answer/185833?hl=en-GB"></a>Gmail Help</li>
 <li><a href=""></a></li>
 <li><a href=""></a></li>
 </ul>
