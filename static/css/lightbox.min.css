@@ -434,15 +434,15 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .lg-outer .lg-has-vimeo .lg-video-play {
-    
+
 }
 
 .lg-outer .lg-has-vimeo:hover .lg-video-play {
-    
+
 }
 
 .lg-outer .lg-has-html5 .lg-video-play {
-    
+
     height: 64px;
     margin-left: -32px;
     margin-top: -32px;
