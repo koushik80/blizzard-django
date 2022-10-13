@@ -58,9 +58,9 @@
 <li>If a user is interested in one specific model, then he or she can send an inquiry to know more details by clicking send message button.</li>
 <li>Users can register and login.</li>
 <li>Users can also login with Facebook and Google accounts.</li>
-<li>11.	After login to the site users will be redirected to the dashboard and see their previous inquiries.</li>
+<li>After login to the site users will be redirected to the dashboard and see their previous inquiries.</li>
 <li>Users can send messages by clicking Get in Touch button on the home page.</li>
-<li>Admin panel for the owner of the company.</li>
+<li>Dealers can use the Admin panel to create their own accounts and update & remove data from the database.</li>
 <li></li>
 <li></li>
 <li></li>
