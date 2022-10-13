@@ -142,6 +142,7 @@
 <li>pip install django-multiselectfield</li>
 <li>pip install django-allauth</>
 <li>pip install django-likert-field</li>
+<li>pip install python-decouple</li>
 <li>pip install django-star-ratings</li>
 <li>pip install django-material==0.5.1</li>
 <li>pip freeze > requirements.txt</li>
