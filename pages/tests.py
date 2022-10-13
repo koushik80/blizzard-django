@@ -19,7 +19,7 @@ class HomepageTests(TestCase):
 
     def test_template_content(self):
         response = self.client.get(reverse("home"))
-        self.assertContains(response, "<h5>Come and visit our high-tech performance car that is made only for you.</h5>")
+        self.assertContains(response, "<h5>Come and visit our high-tech performance cars that are made only for you.</h5>")
         self.assertNotContains(response, "Not on the page")
 
 class AboutPageTests(TestCase):  # new
