@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
 import os
+import dj_database_url
 
 from pathlib import Path
 from decouple import config
@@ -26,9 +27,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = config('APP_SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-#DEBUG = True
+DEBUG = False
 
-DEBUG = config('DEBUG', cast=bool)
+#DEBUG = config('DEBUG', cast=bool)
 
 
 ALLOWED_HOSTS = []
@@ -68,6 +69,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'blizzard.urls'
@@ -94,15 +96,17 @@ WSGI_APPLICATION = 'blizzard.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'blizzard_db',
-        'USER': 'postgres',
-        'PASSWORD': config('DB_PASSWORD'),
-        'HOST': 'localhost',
-    }
-}
+#DATABASES = {
+    #'default': {
+        #'ENGINE': 'django.db.backends.postgresql',
+        #'NAME': 'blizzard_db',
+        #'USER': 'postgres',
+        #'PASSWORD': config('DB_PASSWORD'),
+        #'HOST': 'localhost',
+    #}
+#}
+
+DATABASES = {'default': dj_database_url.config(default='postgres://postgres:DB_PASSWORD@localhost/blizzard_db')}
 
 DEFAULT_AUTO_FIELD='django.db.models.AutoField'
 
@@ -175,3 +179,8 @@ EMAIL_USE_TLS = True
 
 # Email sending : https://docs.djangoproject.com/en/4.1/topics/email/
 # https://support.google.com/mail/answer/185833?hl=en-GB
+
+
+# whitenoise settings
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'

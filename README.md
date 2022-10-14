@@ -146,6 +146,8 @@
 <li>pip install django-material==0.5.1</li>
 <li>pip freeze > requirements.txt</li>
 <li>pip install gunicorn psycopg2-binary</li>
+<li>pip install dj-database-url</li>
+<li>pip install whitenoise</li>
 </ul>
 
 ---
