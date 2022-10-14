@@ -33,7 +33,7 @@ DEBUG = False
 #DEBUG = config('DEBUG', cast=bool)
 
 
-ALLOWED_HOSTS = ['blizzard-car.herokuapp.com', 'blizzardauto.fi', 'www.blizzardauto.fi' ]
+ALLOWED_HOSTS = ['blizzard-car.herokuapp.com', 'blizzardapp.co', 'www.blizzardapp.co' ]
 #ALLOWED_HOSTS = []
 LOGIN_REDIRECT_URL = 'dashboard'
 
