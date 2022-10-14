@@ -136,7 +136,6 @@
 <li>pip install virtualenv</li>
 <li>source env/bin/activate</li>
 <li>pip install django==4.1.1</li>
-<li>pip install psycopg2-binary==2.8.6</li>
 <li>python -m pip install Pillow</li>
 <li>pip install django-ckeditor</li>
 <li>pip install django-multiselectfield</li>
