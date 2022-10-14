@@ -338,27 +338,27 @@
 },
 {
     "model": "contacts.contact",
-    "pk": 2,
+    "pk": 7,
     "fields": {
-        "first_name": "Koushik",
-        "last_name": "Dey",
-        "car_id": 7,
+        "first_name": "Luna",
+        "last_name": "Dog",
+        "car_id": 1,
         "customer_need": "I'm interested in this",
-        "car_title": "Porsche Taycan Sport Turismo",
-        "city": "Ongenkoukku",
+        "car_title": "Volvo XC90",
+        "city": "Ongen",
         "state": "Vantaa",
-        "email": "raj_on@hotmail.com",
-        "phone": "003582689098",
-        "message": "Please send more specifications",
-        "user_id": 2,
-        "create_date": "2022-10-03T18:26:23.340Z"
+        "email": "luna@gmail.com",
+        "phone": "",
+        "message": "                      jjjj",
+        "user_id": 6,
+        "create_date": "2022-10-13T20:18:42.548Z"
     }
 },
 {
     "model": "auth.user",
     "fields": {
-        "password": "",
-        "last_login": "2022-10-04T16:41:06.036Z",
+        "password": "pbkdf2_sha256$390000$2ZYuCrppdj5tVzpDcS68Qg$RATudh1JHMbgUM+FoA/xHcJkXvyPlWKJ+bd6Yi1x+MA=",
+        "last_login": "2022-10-13T20:08:56.079Z",
         "is_superuser": true,
         "username": "djangoadmin",
         "first_name": "Koushik",
@@ -374,8 +374,8 @@
 {
     "model": "auth.user",
     "fields": {
-        "password": "",
-        "last_login": "2022-10-04T14:37:18.958Z",
+        "password": "pbkdf2_sha256$390000$99dpOut0BtpcODj4t9Yj4Z$F/Yjv2lZ74SA2mB0Qi02O5wVVlRXjOUd797JqL1PKzQ=",
+        "last_login": "2022-10-05T15:11:26.161Z",
         "is_superuser": false,
         "username": "rajon",
         "first_name": "Koushik",
@@ -391,7 +391,7 @@
 {
     "model": "auth.user",
     "fields": {
-        "password": "",
+        "password": "!gRy6Xomc5ATVpY3En3mYfFqb7MaWBgMKZFJLbOsA",
         "last_login": "2022-09-30T16:11:54.453Z",
         "is_superuser": false,
         "username": "raj",
@@ -408,8 +408,8 @@
 {
     "model": "auth.user",
     "fields": {
-        "password": "",
-        "last_login": "2022-10-02T19:20:38.416Z",
+        "password": "!AOnaAuamIr9YVC9iD5oYh1hzxtRqe6GO8arPHt9I",
+        "last_login": "2022-10-05T08:13:34.866Z",
         "is_superuser": false,
         "username": "finfotek",
         "first_name": "Finfotek",
@@ -423,11 +423,37 @@
     }
 },
 {
-    "model": "sessions.session",
-    "pk": "669h6ychtw4kciekm0k7mwogidgt9trx",
+    "model": "auth.user",
     "fields": {
-        "session_data": ".eJxVjMsOwiAQRf-FtSHlDS7d-w1kBgapGkhKuzL-uzbpQrf3nHNfLMK21rgNWuKc2ZkJdvrdENKD2g7yHdqt89TbuszId4UfdPBrz_S8HO7fQYVRv3USpLMROKEipyZNEoCM1d4oShl1Sq5AUNpgMEJg8NJ5K20pXmEAAvb-AO9PODM:1ofkyg:Yipu0r0ts58DPY3Bt80Fp-_BrNvPAfikZ_K3y8A9Ogk",
-        "expire_date": "2022-10-18T16:41:06.039Z"
+        "password": "pbkdf2_sha256$390000$rSrf3cZnlUZeK1B2DdcZ9A$smEciVX9qyn/TvErrfebtN4l3DwpkYsn0XbkHDFv6K8=",
+        "last_login": "2022-10-05T06:21:45.541Z",
+        "is_superuser": false,
+        "username": "rosa",
+        "first_name": "Rosabella ",
+        "last_name": "Dey",
+        "email": "rosa@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-10-05T06:21:45.274Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$390000$P3TYhYINyH5bJEWXVBdQ8c$yJpfoLT+a4AnjUMEcKO7+XjbFBxFMxS84VlwSuKR2RY=",
+        "last_login": "2022-10-13T20:18:10.715Z",
+        "is_superuser": false,
+        "username": "luna",
+        "first_name": "Luna",
+        "last_name": "Dog",
+        "email": "luna@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-10-13T20:18:10.449Z",
+        "groups": [],
+        "user_permissions": []
     }
 },
 {
@@ -436,6 +462,14 @@
     "fields": {
         "session_data": "MmM5MDcxM2NmOWFiOTg0YWQ0ODE4ZDNhYjM4YWQ2NGIyMzM5NThiZTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI3NGVmNzQzOTAwNGRiZDNkYTE0NDRjYTFhY2I5NWY0Y2FhNDZmMjMyIn0=",
         "expire_date": "2022-10-06T11:29:40.898Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "gknyqbjbz0fe89g0n7hi47ehl8nibqjt",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlne-Eco6TmDtfaucQDZUpxUiLuTSCmgfTPz3iLgupSwdp7DROIinDj9bhHTk-sO6IH13mRqdZmnKHdFHrTLWyN-XQ_376BgL1utwHvQ5EfURsVk7NmCic5550izBtywhaxBEaMfh2isSjkNGVAxoxWfL7DMNy8:1oj4eg:ZXj3__XMGApYUnv-xg697Jg224PI87RaY1I32VvufF0",
+        "expire_date": "2022-10-27T20:18:10.717Z"
     }
 },
 {
@@ -467,8 +501,8 @@
     "fields": {
         "provider": "facebook",
         "name": "Facebook login",
-        "client_id": "",
-        "secret": "",
+        "client_id": "1151420165725051",
+        "secret": "4fc3a55253316ef0d2764272d0837e47",
         "key": "",
         "sites": [
             [
@@ -483,8 +517,8 @@
     "fields": {
         "provider": "google",
         "name": "Google Login",
-        "client_id": "",
-        "secret": "",
+        "client_id": "370255906347-vl0lr3ntvt76mt8tj5ja3jt7o0rv218o.apps.googleusercontent.com",
+        "secret": "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",
         "key": "",
         "sites": [
             [
@@ -516,7 +550,7 @@
         ],
         "provider": "google",
         "uid": "113152246314189656025",
-        "last_login": "2022-10-02T19:20:38.401Z",
+        "last_login": "2022-10-05T08:13:34.859Z",
         "date_joined": "2022-09-30T14:54:54.563Z",
         "extra_data": "{\"id\": \"113152246314189656025\", \"name\": \"Finfotek devhub\", \"given_name\": \"Finfotek\", \"family_name\": \"devhub\", \"picture\": \"https://lh3.googleusercontent.com/a-/ACNPEu_ct48Av673pE_-xjnA-MswxawfbHSrkFDIPLkn=s96-c\", \"locale\": \"en\"}"
     }
@@ -1581,6 +1615,96 @@
         "object_repr": "rosa@gmail.com",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2022-10-05T15:13:57.014Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "6",
+        "object_repr": "raj_on@hotmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2022-10-05T15:14:10.123Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "5",
+        "object_repr": "raj_on@hotmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2022-10-05T15:14:10.125Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "4",
+        "object_repr": "raj_on@hotmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2022-10-05T15:14:10.126Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "3",
+        "object_repr": "rosa@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+        "action_time": "2022-10-05T15:14:10.127Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "2",
+        "object_repr": "raj_on@hotmail.com",
+        "action_flag": 3,
+        "change_message": ""
     }
 }
 ]

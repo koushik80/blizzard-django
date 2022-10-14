@@ -28,12 +28,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'kjmv8)-wh#px07)(g3=-j750rqz3o7tci9c*xovnk2mq8d##1l'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 #DEBUG = config('DEBUG', cast=bool)
 
 
-ALLOWED_HOSTS = ['blizzard-car.herokuapp.com', 'blizzardapp.co', 'www.blizzardapp.co' ]
+ALLOWED_HOSTS = ['blizzard-car.herokuapp.com', 'blizzardauto.fi', 'www.blizzardauto.fi' ]
 #ALLOWED_HOSTS = []
 LOGIN_REDIRECT_URL = 'dashboard'
 
