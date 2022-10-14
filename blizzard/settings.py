@@ -24,7 +24,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = config('APP_SECRET_KEY')
+#SECRET_KEY = config('APP_SECRET_KEY')
+SECRET_KEY = 'kjmv8)-wh#px07)(g3=-j750rqz3o7tci9c*xovnk2mq8d##1l'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -106,7 +107,7 @@ WSGI_APPLICATION = 'blizzard.wsgi.application'
     #}
 #}
 
-DATABASES = {'default': dj_database_url.config(default='postgres://postgres:DB_PASSWORD@localhost/blizzard_db')}
+DATABASES = {'default': dj_database_url.config(default='postgres://postgres:Rajon123456@localhost/blizzard_db')}
 
 DEFAULT_AUTO_FIELD='django.db.models.AutoField'
 
@@ -172,7 +173,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_HOST_USER = 'finfotek80@gmail.com'
-EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
+#EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
+EMAIL_HOST_PASSWORD = mlrdpywucgztrvif
 EMAIL_USE_TLS = True
 
 
