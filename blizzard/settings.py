@@ -181,6 +181,8 @@ EMAIL_USE_TLS = True
 # https://support.google.com/mail/answer/185833?hl=en-GB
 
 
+
 # whitenoise settings
+
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
