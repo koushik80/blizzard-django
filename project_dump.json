@@ -355,10 +355,28 @@
     }
 },
 {
+    "model": "contacts.contact",
+    "pk": 12,
+    "fields": {
+        "first_name": "Koushik",
+        "last_name": "Dey",
+        "car_id": 1,
+        "customer_need": "I'd like to test drive this",
+        "car_title": "Volvo XC90",
+        "city": "Helsinki",
+        "state": "Vantaa",
+        "email": "finfotek80@gmail.com",
+        "phone": "003582689098",
+        "message": "                      mm",
+        "user_id": 1,
+        "create_date": "2022-10-16T09:33:50.316Z"
+    }
+},
+{
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$390000$2ZYuCrppdj5tVzpDcS68Qg$RATudh1JHMbgUM+FoA/xHcJkXvyPlWKJ+bd6Yi1x+MA=",
-        "last_login": "2022-10-16T08:52:15.736Z",
+        "last_login": "2022-10-16T09:35:02.580Z",
         "is_superuser": true,
         "username": "Djangoadmin",
         "first_name": "Koushik",
@@ -408,23 +426,6 @@
 {
     "model": "auth.user",
     "fields": {
-        "password": "!AOnaAuamIr9YVC9iD5oYh1hzxtRqe6GO8arPHt9I",
-        "last_login": "2022-10-14T16:30:24.853Z",
-        "is_superuser": false,
-        "username": "finfotek",
-        "first_name": "Finfotek",
-        "last_name": "devhub",
-        "email": "",
-        "is_staff": false,
-        "is_active": true,
-        "date_joined": "2022-09-30T14:54:54.550Z",
-        "groups": [],
-        "user_permissions": []
-    }
-},
-{
-    "model": "auth.user",
-    "fields": {
         "password": "pbkdf2_sha256$390000$rSrf3cZnlUZeK1B2DdcZ9A$smEciVX9qyn/TvErrfebtN4l3DwpkYsn0XbkHDFv6K8=",
         "last_login": "2022-10-05T06:21:45.541Z",
         "is_superuser": false,
@@ -462,14 +463,6 @@
     "fields": {
         "session_data": "MmM5MDcxM2NmOWFiOTg0YWQ0ODE4ZDNhYjM4YWQ2NGIyMzM5NThiZTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI3NGVmNzQzOTAwNGRiZDNkYTE0NDRjYTFhY2I5NWY0Y2FhNDZmMjMyIn0=",
         "expire_date": "2022-10-06T11:29:40.898Z"
-    }
-},
-{
-    "model": "sessions.session",
-    "pk": "njor1ynv0oezxkrg7fpanvt5zrylmsh4",
-    "fields": {
-        "session_data": ".eJxVjMsOwiAQRf-FtSHlDS7d-w1kBgapGkhKuzL-uzbpQrf3nHNfLMK21rgNWuKc2ZkJdvrdENKD2g7yHdqt89TbuszId4UfdPBrz_S8HO7fQYVRv3USpLMROKEipyZNEoCM1d4oShl1Sq5AUNpgMEJg8NJ5K20pXmEAAvb-AO9PODM:1ojzNX:q5KJAyCt_ZMCdaQSrsyr6mAaq8sHGttW5wSZDU6DQik",
-        "expire_date": "2022-10-30T08:52:15.738Z"
     }
 },
 {
@@ -552,20 +545,6 @@
         "last_login": "2022-10-14T22:17:28.308Z",
         "date_joined": "2022-09-30T10:59:16.133Z",
         "extra_data": "{\"id\": \"10166543263590084\", \"name\": \"\\u0156\\u0105\\u0135 \\u014c\\u014b\", \"first_name\": \"\\u0156\\u0105\\u0135\", \"last_name\": \"\\u014c\\u014b\"}"
-    }
-},
-{
-    "model": "socialaccount.socialaccount",
-    "pk": 2,
-    "fields": {
-        "user": [
-            "finfotek"
-        ],
-        "provider": "google",
-        "uid": "113152246314189656025",
-        "last_login": "2022-10-14T16:30:24.844Z",
-        "date_joined": "2022-09-30T14:54:54.563Z",
-        "extra_data": "{\"id\": \"113152246314189656025\", \"name\": \"Finfotek devhub\", \"given_name\": \"Finfotek\", \"family_name\": \"devhub\", \"picture\": \"https://lh3.googleusercontent.com/a/ALm5wu2yI1SWRAOkGV2RcXLzXdHcG5wWiTAx7St2WE9S=s96-c\", \"locale\": \"en\"}"
     }
 },
 {
@@ -2004,6 +1983,24 @@
         ],
         "object_id": "8",
         "object_repr": "luna@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+        "action_time": "2022-10-16T09:36:33.457Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "4",
+        "object_repr": "finfotek",
         "action_flag": 3,
         "change_message": ""
     }
