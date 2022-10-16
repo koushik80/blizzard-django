@@ -320,47 +320,47 @@
 },
 {
     "model": "contacts.contact",
-    "pk": 1,
-    "fields": {
-        "first_name": "Koushik",
-        "last_name": "Dey",
-        "car_id": 1,
-        "customer_need": "I'm interested in this",
-        "car_title": "Volvo XC90",
-        "city": "Ongenkoukku",
-        "state": "Vantaa",
-        "email": "finfotek80@gmail.com",
-        "phone": "",
-        "message": "                      I want more details about this car.",
-        "user_id": 1,
-        "create_date": "2022-10-03T17:55:27.483Z"
-    }
-},
-{
-    "model": "contacts.contact",
-    "pk": 7,
+    "pk": 10,
     "fields": {
         "first_name": "Luna",
         "last_name": "Dog",
         "car_id": 1,
         "customer_need": "I'm interested in this",
         "car_title": "Volvo XC90",
-        "city": "Ongen",
-        "state": "Vantaa",
+        "city": "Helsinki",
+        "state": "gh",
         "email": "luna@gmail.com",
-        "phone": "",
-        "message": "                      jjjj",
+        "phone": "0035826890988",
+        "message": "                      kkk",
         "user_id": 6,
-        "create_date": "2022-10-13T20:18:42.548Z"
+        "create_date": "2022-10-15T18:34:20.058Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 11,
+    "fields": {
+        "first_name": "Luna",
+        "last_name": "Dog",
+        "car_id": 4,
+        "customer_need": "I'm interested in this",
+        "car_title": "Ford Mustang Mach-E",
+        "city": "Vantaa",
+        "state": "gh",
+        "email": "luna@gmail.com",
+        "phone": "0035826890988",
+        "message": "                      hdhd",
+        "user_id": 6,
+        "create_date": "2022-10-15T19:02:12.967Z"
     }
 },
 {
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$390000$2ZYuCrppdj5tVzpDcS68Qg$RATudh1JHMbgUM+FoA/xHcJkXvyPlWKJ+bd6Yi1x+MA=",
-        "last_login": "2022-10-13T20:08:56.079Z",
+        "last_login": "2022-10-16T08:52:15.736Z",
         "is_superuser": true,
-        "username": "djangoadmin",
+        "username": "Djangoadmin",
         "first_name": "Koushik",
         "last_name": "Dey",
         "email": "finfotek80@gmail.com",
@@ -392,7 +392,7 @@
     "model": "auth.user",
     "fields": {
         "password": "!gRy6Xomc5ATVpY3En3mYfFqb7MaWBgMKZFJLbOsA",
-        "last_login": "2022-09-30T16:11:54.453Z",
+        "last_login": "2022-10-14T22:17:28.315Z",
         "is_superuser": false,
         "username": "raj",
         "first_name": "Ŗąĵ",
@@ -409,7 +409,7 @@
     "model": "auth.user",
     "fields": {
         "password": "!AOnaAuamIr9YVC9iD5oYh1hzxtRqe6GO8arPHt9I",
-        "last_login": "2022-10-05T08:13:34.866Z",
+        "last_login": "2022-10-14T16:30:24.853Z",
         "is_superuser": false,
         "username": "finfotek",
         "first_name": "Finfotek",
@@ -443,7 +443,7 @@
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$390000$P3TYhYINyH5bJEWXVBdQ8c$yJpfoLT+a4AnjUMEcKO7+XjbFBxFMxS84VlwSuKR2RY=",
-        "last_login": "2022-10-13T20:18:10.715Z",
+        "last_login": "2022-10-15T19:01:41.377Z",
         "is_superuser": false,
         "username": "luna",
         "first_name": "Luna",
@@ -466,10 +466,10 @@
 },
 {
     "model": "sessions.session",
-    "pk": "gknyqbjbz0fe89g0n7hi47ehl8nibqjt",
+    "pk": "njor1ynv0oezxkrg7fpanvt5zrylmsh4",
     "fields": {
-        "session_data": ".eJxVjDsOwjAQBe_iGlne-Eco6TmDtfaucQDZUpxUiLuTSCmgfTPz3iLgupSwdp7DROIinDj9bhHTk-sO6IH13mRqdZmnKHdFHrTLWyN-XQ_376BgL1utwHvQ5EfURsVk7NmCic5550izBtywhaxBEaMfh2isSjkNGVAxoxWfL7DMNy8:1oj4eg:ZXj3__XMGApYUnv-xg697Jg224PI87RaY1I32VvufF0",
-        "expire_date": "2022-10-27T20:18:10.717Z"
+        "session_data": ".eJxVjMsOwiAQRf-FtSHlDS7d-w1kBgapGkhKuzL-uzbpQrf3nHNfLMK21rgNWuKc2ZkJdvrdENKD2g7yHdqt89TbuszId4UfdPBrz_S8HO7fQYVRv3USpLMROKEipyZNEoCM1d4oShl1Sq5AUNpgMEJg8NJ5K20pXmEAAvb-AO9PODM:1ojzNX:q5KJAyCt_ZMCdaQSrsyr6mAaq8sHGttW5wSZDU6DQik",
+        "expire_date": "2022-10-30T08:52:15.738Z"
     }
 },
 {
@@ -496,6 +496,13 @@
     }
 },
 {
+    "model": "sites.site",
+    "fields": {
+        "domain": "blizzard-car.herokuapp.com",
+        "name": "blizzard-car"
+    }
+},
+{
     "model": "socialaccount.socialapp",
     "pk": 1,
     "fields": {
@@ -505,6 +512,9 @@
         "secret": "4fc3a55253316ef0d2764272d0837e47",
         "key": "",
         "sites": [
+            [
+                "blizzard-car.herokuapp.com"
+            ],
             [
                 "localhost:8000"
             ]
@@ -522,6 +532,9 @@
         "key": "",
         "sites": [
             [
+                "blizzard-car.herokuapp.com"
+            ],
+            [
                 "localhost:8000"
             ]
         ]
@@ -536,7 +549,7 @@
         ],
         "provider": "facebook",
         "uid": "10166543263590084",
-        "last_login": "2022-09-30T16:11:54.445Z",
+        "last_login": "2022-10-14T22:17:28.308Z",
         "date_joined": "2022-09-30T10:59:16.133Z",
         "extra_data": "{\"id\": \"10166543263590084\", \"name\": \"\\u0156\\u0105\\u0135 \\u014c\\u014b\", \"first_name\": \"\\u0156\\u0105\\u0135\", \"last_name\": \"\\u014c\\u014b\"}"
     }
@@ -550,9 +563,9 @@
         ],
         "provider": "google",
         "uid": "113152246314189656025",
-        "last_login": "2022-10-05T08:13:34.859Z",
+        "last_login": "2022-10-14T16:30:24.844Z",
         "date_joined": "2022-09-30T14:54:54.563Z",
-        "extra_data": "{\"id\": \"113152246314189656025\", \"name\": \"Finfotek devhub\", \"given_name\": \"Finfotek\", \"family_name\": \"devhub\", \"picture\": \"https://lh3.googleusercontent.com/a-/ACNPEu_ct48Av673pE_-xjnA-MswxawfbHSrkFDIPLkn=s96-c\", \"locale\": \"en\"}"
+        "extra_data": "{\"id\": \"113152246314189656025\", \"name\": \"Finfotek devhub\", \"given_name\": \"Finfotek\", \"family_name\": \"devhub\", \"picture\": \"https://lh3.googleusercontent.com/a/ALm5wu2yI1SWRAOkGV2RcXLzXdHcG5wWiTAx7St2WE9S=s96-c\", \"locale\": \"en\"}"
     }
 },
 {
@@ -561,7 +574,7 @@
     "fields": {
         "action_time": "2022-09-22T11:32:54.226Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "auth",
@@ -579,7 +592,7 @@
     "fields": {
         "action_time": "2022-09-22T13:07:28.286Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "pages",
@@ -597,7 +610,7 @@
     "fields": {
         "action_time": "2022-09-22T13:07:39.548Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "pages",
@@ -615,7 +628,7 @@
     "fields": {
         "action_time": "2022-09-22T13:09:51.937Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "pages",
@@ -633,7 +646,7 @@
     "fields": {
         "action_time": "2022-09-22T13:09:59.224Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "pages",
@@ -651,7 +664,7 @@
     "fields": {
         "action_time": "2022-09-22T14:11:04.236Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "pages",
@@ -669,7 +682,7 @@
     "fields": {
         "action_time": "2022-09-22T15:38:04.047Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "pages",
@@ -687,7 +700,7 @@
     "fields": {
         "action_time": "2022-09-22T15:42:10.012Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "pages",
@@ -705,7 +718,7 @@
     "fields": {
         "action_time": "2022-09-22T15:44:44.779Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "pages",
@@ -723,7 +736,7 @@
     "fields": {
         "action_time": "2022-09-22T15:51:41.138Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "pages",
@@ -741,7 +754,7 @@
     "fields": {
         "action_time": "2022-09-22T16:48:15.541Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "pages",
@@ -759,7 +772,7 @@
     "fields": {
         "action_time": "2022-09-22T16:48:29.470Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "pages",
@@ -777,7 +790,7 @@
     "fields": {
         "action_time": "2022-09-22T16:48:38.638Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "pages",
@@ -795,7 +808,7 @@
     "fields": {
         "action_time": "2022-09-22T16:48:49.775Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "pages",
@@ -813,7 +826,7 @@
     "fields": {
         "action_time": "2022-09-22T16:49:00.626Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "pages",
@@ -831,7 +844,7 @@
     "fields": {
         "action_time": "2022-09-22T16:50:29.291Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "pages",
@@ -849,7 +862,7 @@
     "fields": {
         "action_time": "2022-09-22T16:53:21.071Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "pages",
@@ -867,7 +880,7 @@
     "fields": {
         "action_time": "2022-09-22T21:28:15.847Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "pages",
@@ -885,7 +898,7 @@
     "fields": {
         "action_time": "2022-09-22T21:29:28.742Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "pages",
@@ -903,7 +916,7 @@
     "fields": {
         "action_time": "2022-09-22T21:29:48.962Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "pages",
@@ -921,7 +934,7 @@
     "fields": {
         "action_time": "2022-09-24T22:52:16.570Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "cars",
@@ -939,7 +952,7 @@
     "fields": {
         "action_time": "2022-09-24T22:54:18.468Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "cars",
@@ -957,7 +970,7 @@
     "fields": {
         "action_time": "2022-09-24T22:54:34.344Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "cars",
@@ -975,7 +988,7 @@
     "fields": {
         "action_time": "2022-09-24T23:15:39.817Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "cars",
@@ -993,7 +1006,7 @@
     "fields": {
         "action_time": "2022-09-24T23:18:28.460Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "cars",
@@ -1011,7 +1024,7 @@
     "fields": {
         "action_time": "2022-09-24T23:56:22.680Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "cars",
@@ -1029,7 +1042,7 @@
     "fields": {
         "action_time": "2022-09-24T23:58:19.441Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "cars",
@@ -1047,7 +1060,7 @@
     "fields": {
         "action_time": "2022-09-24T23:58:27.776Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "cars",
@@ -1065,7 +1078,7 @@
     "fields": {
         "action_time": "2022-09-24T23:59:05.819Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "cars",
@@ -1083,7 +1096,7 @@
     "fields": {
         "action_time": "2022-09-24T23:59:10.835Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "cars",
@@ -1101,7 +1114,7 @@
     "fields": {
         "action_time": "2022-09-24T23:59:26.931Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "cars",
@@ -1119,7 +1132,7 @@
     "fields": {
         "action_time": "2022-09-24T23:59:35.911Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "cars",
@@ -1137,7 +1150,7 @@
     "fields": {
         "action_time": "2022-09-25T10:18:00.493Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "cars",
@@ -1155,7 +1168,7 @@
     "fields": {
         "action_time": "2022-09-25T10:36:52.558Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "pages",
@@ -1173,7 +1186,7 @@
     "fields": {
         "action_time": "2022-09-25T15:50:48.588Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "cars",
@@ -1191,7 +1204,7 @@
     "fields": {
         "action_time": "2022-09-25T15:50:48.594Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "cars",
@@ -1209,7 +1222,7 @@
     "fields": {
         "action_time": "2022-09-25T15:50:48.596Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "cars",
@@ -1227,7 +1240,7 @@
     "fields": {
         "action_time": "2022-09-25T16:11:45.326Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "cars",
@@ -1245,7 +1258,7 @@
     "fields": {
         "action_time": "2022-09-25T18:40:10.826Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "cars",
@@ -1263,7 +1276,7 @@
     "fields": {
         "action_time": "2022-09-25T18:40:21.062Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "cars",
@@ -1281,7 +1294,7 @@
     "fields": {
         "action_time": "2022-09-25T18:40:46.960Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "cars",
@@ -1299,7 +1312,7 @@
     "fields": {
         "action_time": "2022-09-25T19:18:49.893Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "cars",
@@ -1317,7 +1330,7 @@
     "fields": {
         "action_time": "2022-09-26T12:12:38.065Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "cars",
@@ -1335,7 +1348,7 @@
     "fields": {
         "action_time": "2022-09-26T12:13:05.454Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "cars",
@@ -1353,7 +1366,7 @@
     "fields": {
         "action_time": "2022-09-26T12:13:36.024Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "cars",
@@ -1371,7 +1384,7 @@
     "fields": {
         "action_time": "2022-09-26T12:16:03.165Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "cars",
@@ -1389,7 +1402,7 @@
     "fields": {
         "action_time": "2022-09-26T16:50:47.314Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "cars",
@@ -1407,7 +1420,7 @@
     "fields": {
         "action_time": "2022-09-26T17:05:18.229Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "cars",
@@ -1425,7 +1438,7 @@
     "fields": {
         "action_time": "2022-09-26T17:22:43.445Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "cars",
@@ -1443,7 +1456,7 @@
     "fields": {
         "action_time": "2022-09-26T17:23:23.261Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "cars",
@@ -1461,7 +1474,7 @@
     "fields": {
         "action_time": "2022-09-26T18:08:32.985Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "cars",
@@ -1479,7 +1492,7 @@
     "fields": {
         "action_time": "2022-09-26T18:09:15.061Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "cars",
@@ -1497,7 +1510,7 @@
     "fields": {
         "action_time": "2022-09-26T18:09:29.209Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "cars",
@@ -1515,7 +1528,7 @@
     "fields": {
         "action_time": "2022-09-26T20:01:43.873Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "cars",
@@ -1533,7 +1546,7 @@
     "fields": {
         "action_time": "2022-09-27T17:49:25.653Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "cars",
@@ -1551,7 +1564,7 @@
     "fields": {
         "action_time": "2022-09-30T10:05:39.249Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "socialaccount",
@@ -1569,7 +1582,7 @@
     "fields": {
         "action_time": "2022-09-30T10:08:53.234Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "sites",
@@ -1587,7 +1600,7 @@
     "fields": {
         "action_time": "2022-09-30T14:46:28.759Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "socialaccount",
@@ -1605,7 +1618,7 @@
     "fields": {
         "action_time": "2022-10-04T17:03:18.165Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "pages",
@@ -1623,7 +1636,7 @@
     "fields": {
         "action_time": "2022-10-05T15:13:57.014Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "contacts",
@@ -1641,7 +1654,7 @@
     "fields": {
         "action_time": "2022-10-05T15:14:10.123Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "contacts",
@@ -1659,7 +1672,7 @@
     "fields": {
         "action_time": "2022-10-05T15:14:10.125Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "contacts",
@@ -1677,7 +1690,7 @@
     "fields": {
         "action_time": "2022-10-05T15:14:10.126Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "contacts",
@@ -1695,7 +1708,7 @@
     "fields": {
         "action_time": "2022-10-05T15:14:10.127Z",
         "user": [
-            "djangoadmin"
+            "Djangoadmin"
         ],
         "content_type": [
             "contacts",
@@ -1703,6 +1716,294 @@
         ],
         "object_id": "2",
         "object_repr": "raj_on@hotmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+        "action_time": "2022-10-14T15:56:00.297Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "2",
+        "object_repr": "'blizzard-car.herokuapp.com'",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+        "action_time": "2022-10-14T15:56:18.074Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "2",
+        "object_repr": "'blizzard-car.herokuapp.com'",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+        "action_time": "2022-10-14T15:57:13.501Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "3",
+        "object_repr": "blizzard-car.herokuapp.com",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+        "action_time": "2022-10-14T16:00:56.637Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "2",
+        "object_repr": "Google Login",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Sites\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+        "action_time": "2022-10-14T16:01:05.595Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Facebook login",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Sites\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+        "action_time": "2022-10-14T16:23:54.286Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "3",
+        "object_repr": "blizzard-car.herokuapp.com",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+        "action_time": "2022-10-14T16:23:58.516Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "3",
+        "object_repr": "blizzard-car.herokuapp.com",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+        "action_time": "2022-10-14T16:37:00.538Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Facebook login",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+        "action_time": "2022-10-14T16:37:34.612Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Facebook login",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+        "action_time": "2022-10-14T18:20:37.793Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "3",
+        "object_repr": "blizzard-car.herokuapp.com",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+        "action_time": "2022-10-14T18:21:43.019Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "7",
+        "object_repr": "luna@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+        "action_time": "2022-10-14T18:21:43.021Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "1",
+        "object_repr": "finfotek80@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+        "action_time": "2022-10-14T18:22:55.637Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "3",
+        "object_repr": "blizzard-car.herokuapp.com",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Display name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+        "action_time": "2022-10-14T20:09:48.971Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "Djangoadmin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Username\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+        "action_time": "2022-10-15T14:04:21.225Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "9",
+        "object_repr": "luna@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+        "action_time": "2022-10-15T14:04:21.232Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "8",
+        "object_repr": "luna@gmail.com",
         "action_flag": 3,
         "change_message": ""
     }
