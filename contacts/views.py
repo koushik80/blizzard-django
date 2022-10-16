@@ -28,7 +28,6 @@ def inquiry(request):
                 messages.error(request, 'You have already made an inquiry about this car. Please wait until we get back to you.')
                 return redirect('/cars/'+car_id)
 
-
         contact = Contact(car_id=car_id, car_title=car_title, user_id=user_id,
         first_name=first_name, last_name=last_name, customer_need=customer_need,
         city=city, state=state, email=email, phone=phone, message=message)
