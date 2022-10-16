@@ -51,7 +51,7 @@ def contact(request):
         email_subject = 'You have a new message from Blizzard Auto website regarding ' + subject
         message_body = 'Name: ' + name + '. Email: ' + email + '. Phone: ' + phone + '. Message: ' + message
 
-        admin_info = User.objects.filter(is_superuser=True)
+        admin_info = admin_info = User.objects.filter(email, is_superuser=True)
         admin_email = admin_info.email
         send_mail( # https://docs.djangoproject.com/en/4.1/topics/email/
                 email_subject,
