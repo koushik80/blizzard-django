@@ -184,14 +184,13 @@
 <h3 align="left">References: :paperclips:</h3>
 
 <ul>
-<li><a href="https://docs.djangoproject.com/en/4.1/"></a>django</li>
-<li><a href="https://www.udemy.com/"></a>udemy</li>
-<li><a href="https://unsplash.com/s/photos/jpg"></a>Unsplash</li>
-<li><a href="https://www.youtube.com/watch?v=QaZrWIvAFsA"></a>Recoding
-</li>
-<li><a href="https://postgresapp.com/"></a>Postgres.app</li>
-<li><a href="https://pypi.org/project/django-likert-field/"></a>Likert field</li>
-<li><a href="https://support.google.com/mail/answer/185833?hl=en-GB"></a>Gmail Help</li>
+<li><a href="https://docs.djangoproject.com/en/4.1/" target="_blank">django</a></li>
+<li><a href="https://www.udemy.com/" target="_blank">udemy</a></li>
+<li><a href="https://unsplash.com/s/photos/jpg" target="_blank">Unsplash</a></li>
+<li><a href="https://www.youtube.com/watch?v=QaZrWIvAFsA" target="_blank">Recoding</a></li>
+<li><a href="https://postgresapp.com/" target="_blank">Postgres.app</a></li>
+<li><a href="https://pypi.org/project/django-likert-field/" target="_blank">Likert field</a></li>
+<li><a href="https://support.google.com/mail/answer/185833?hl=en-GB" target="_blank">Gmail Help</a></li>
 <li><a href=""></a></li>
 <li><a href=""></a></li>
 </ul>
