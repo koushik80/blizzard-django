@@ -1,0 +1,2044 @@
+[
+{
+    "model": "cars.car",
+    "pk": 1,
+    "fields": {
+        "car_title": "Volvo XC90",
+        "state": "Uusimaa",
+        "city": "Vantaa",
+        "color": "White",
+        "model": "XC90",
+        "year": 2020,
+        "condition": "Used",
+        "price": 71900,
+        "description": "<p>The XC90 is Volvo&rsquo;s flagship SUV. It seats six or seven in three rows, depending on the second-row configuration. A 250-horsepower, turbocharged 2.0-liter four-cylinder engine is standard, while a supercharged and turbocharged 2.0-liter four-cylinder that makes 316 hp is available. Both engines work with an eight-speed automatic transmission. Front-wheel drive is standard, and all-wheel drive is available.&nbsp;</p>\r\n\r\n<p>The XC90&rsquo;s front-end styling has been refreshed, and a 12.3-inch digital instrument panel screen is now standard. The available six-seat interior is also new.&nbsp;</p>\r\n\r\n<p>Standard convenience features include adaptive cruise control, a power liftgate, four-zone automatic air conditioning and a panoramic moonroof with a power sunshade. Active safety features include forward collision warning, automatic emergency braking, lane-keeping assist and blind spot warning with rear cross-traffic alert.&nbsp;<strong>&nbsp;</strong></p>\r\n\r\n<p>The restoration protocol means that the car has been fully inspected and uncompromisingly maintained.&nbsp;That&#39;s why it&#39;s a good and reliable partner for many trips.</p>\r\n\r\n<p><strong>Notable features</strong></p>\r\n\r\n<ul>\r\n\t<li>Revised front styling</li>\r\n\t<li>Three-row luxury SUV</li>\r\n\t<li>Front- or all-wheel drive</li>\r\n\t<li>Supercharged and turbocharged engines are available</li>\r\n\t<li>Plug-in hybrid drivetrain available</li>\r\n\t<li>Pilot Assist driver-assist system</li>\r\n</ul>",
+        "car_photo": "photos/2022/09/24/a7160fbdb59d41a2a4ee2dd385b0dc79_1.jpeg",
+        "car_photo_1": "photos/2022/09/24/a7160fbdb59d41a2a4ee2dd385b0dc79_6.jpeg",
+        "car_photo_2": "photos/2022/09/24/a7160fbdb59d41a2a4ee2dd385b0dc79_10.jpeg",
+        "car_photo_3": "photos/2022/09/24/a7160fbdb59d41a2a4ee2dd385b0dc79_11.jpeg",
+        "car_photo_4": "photos/2022/09/24/a7160fbdb59d41a2a4ee2dd385b0dc79_15.jpeg",
+        "features": "Cruise Control,Audio Interface,Sound system,Smartphone integration,Head-Up display,Airbags,Air Conditioning,Seat Heating,Alarm System,ParkAssist,Power Steering,Reversing Camera,Front Camera,Direct Fuel Injection,Auto Start/Stop,Wind Deflector,Bluetooth Handset,Central locking,Keyless,Motor heater,Traffic sign recognition,Power windows,Roof Opening Mechanism,Tire-pressure monitoring system,Heated steering wheel,Heated windshield,ABS brakes,Adaptive headlights,Collision avoidance system,Isofix-ready,Curve lights,LED-headlights,Traction control,Fog lights,Blind spot sensor,Immobilizer,Alloy wheels,Rain Sensor,Turbo,Trunk temp-control device,Plug-in charging for hybrid vehicles,Air suspension,Two sets of tyres,Driving assistant,Multiactive Steering Wheel",
+        "body_style": "SUV",
+        "engine": "T8 TwE AWD",
+        "transmission": "Auto",
+        "interior": "Leather",
+        "miles": 75000,
+        "doors": "5",
+        "passengers": 7,
+        "vin_no": "YLO620",
+        "mileage": 6,
+        "fuel_type": "Hybrid",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2022-09-24T02:58:32Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 2,
+    "fields": {
+        "car_title": "BMW X1",
+        "state": "Uusimaa",
+        "city": "Espoo",
+        "color": "Maroon",
+        "model": "X1",
+        "year": 2017,
+        "condition": "Used",
+        "price": 190000,
+        "description": "<p>The X1 starts with a front-wheel-drive chassis shared with the Mini Cooper family (BMW owns Mini), a portfolio of small cars known for their nimble handling. From there it gets a turbocharged four-cylinder engine that delivers plenty of power and reasonable mileage thanks to a standard eight-speed automatic transmission. All-wheel drive is also available for those who need extra traction in winter weather.</p>\r\n\r\n<p>A sizable cabin makes the X1 comfortable for adults front and rear, while the wide open cargo area has more space than most of the other crossovers in this class. Advanced technology features such as adaptive cruise control, collision avoidance and a color head-up display are also available.</p>\r\n\r\n<p>With the growing class of small luxury crossovers, the BMW X1 is still one of the most appealing choices. Competitors including the Audi Q3 and&nbsp;<a href=\"https://www.edmunds.com/mercedes-benz/gla-class/2016/suv/review/\">Mercedes-Benz GLA250</a>&nbsp;have many of the same features, but adults will have trouble getting comfortable in their snug backseats. Both crossovers are also quite a bit slower than the X1. The distinctly styled&nbsp;<a href=\"https://www.edmunds.com/lexus/nx-200t/suv/\">Lexus NX 200t</a>&nbsp;has a nicely appointed cabin of its own and a good-sized rear seat but offers less cargo space.</p>\r\n\r\n<p>The larger and more expensive&nbsp;<a href=\"https://www.edmunds.com/acura/rdx/2017/suv/review/\">Acura RDX</a>&nbsp;is better suited to families than the others and remains an excellent value for shoppers who prefer a six-cylinder engine. An X1&nbsp;<em>can</em>&nbsp;still work for a small family. Its predecessor was more focused on a sporty driving experience, but today&#39;s model is far more practical and worth considering if you want a useful luxury crossover with big spirit and a small footprint.</p>\r\n\r\n<p>The BMW X1 comes standard with stability and traction control, antilock disc brakes (with automatic brake drying), front side airbags, full-length side curtain airbags, front knee airbags, active front-seat head restraints and hill descent control. The BMW Assist emergency communications system also comes standard and provides automatic crash notification, stolen vehicle recovery and on-demand roadside assistance.</p>\r\n\r\n<p>Optional safety equipment includes the rearview camera and front and rear parking sensors that are part of the basic Driver Assistance package. The Plus version of that package provides more advanced driver aids such as a front collision warning and mitigation system with pedestrian detection and lane departure warning.</p>\r\n\r\n<p>In Edmunds testing, an X1 with 19-inch wheels and all-season tires came to a stop from 60 mph in 109 feet, an exceptionally short stopping distance for a car in this class. The X1 also earned high marks in the Insurance Institute for Highway Safety crash tests, posting a top Good score in the small- and moderate-overlap front-impact, side-impact, roof strength and head restraint (whiplash protection) categories.</p>",
+        "car_photo": "photos/2022/09/24/bmx-x1-1.jpeg",
+        "car_photo_1": "photos/2022/09/24/bmw-x1-2.jpeg",
+        "car_photo_2": "photos/2022/09/24/bmw-x1-3.jpeg",
+        "car_photo_3": "photos/2022/09/24/2017-bmw-x1-dashboard-carbuzz-338942-1600.jpg",
+        "car_photo_4": "photos/2022/09/24/2c8ab83d9f2c50624441621a4f5b6e50.jpg",
+        "features": "Cruise Control,Audio Interface,Sound system,Airbags,Air Conditioning,Seat Heating,Alarm System,ParkAssist,Power Steering,Auto Start/Stop,Central locking,Motor heater,Power windows,Heated steering wheel,Heated windshield,ABS brakes,Isofix-ready,Curve lights,LED-headlights,Traction control,Fog lights,Immobilizer,Alloy wheels,Rain Sensor,Air suspension",
+        "body_style": "SUV",
+        "engine": "1.4 l,",
+        "transmission": "Auto",
+        "interior": "Fabrics",
+        "miles": 200010,
+        "doors": "5",
+        "passengers": 5,
+        "vin_no": "ABv89X",
+        "mileage": 5,
+        "fuel_type": "Petrol",
+        "no_of_owners": "2",
+        "is_featured": false,
+        "created_date": "2022-09-24T02:58:24Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 3,
+    "fields": {
+        "car_title": "Mercedes-Benz CLA",
+        "state": "Uusimaa",
+        "city": "Helsinki",
+        "color": "Black",
+        "model": "CLA",
+        "year": 2018,
+        "condition": "Used",
+        "price": 27999,
+        "description": "<p>Mercedes-Benz&#39;s small, sporty 2018 CLA-class sedan wears a striking fastback roofline and enough upscale detailing to earn its place among the more expensive cars in&nbsp;<a href=\"https://www.caranddriver.com/mercedes-benz\" target=\"_blank\">the luxury automaker&#39;s lineup</a>. A turbocharged 2.0-liter four-cylinder is standard and makes 221 hp in the CLA250, which is more than enough for most drivers; buy the&nbsp;<a href=\"https://www.caranddriver.com/mercedes-amg/cla35-cla45\" target=\"_blank\">AMG-tuned CLA35 or CLA45</a>&nbsp;(reviewed separately) if you need more gusto. Inside, the CLA-class features much of the same look and feel of a more expensive Benz, including the company&#39;s MBUX infotainment system. If the coupe-like styling just isn&#39;t your thing, you can instead opt for the mechanically similar&nbsp;<a href=\"https://www.caranddriver.com/mercedes-benz/a-class\" target=\"_blank\">A-class</a>&nbsp;instead or go with one of the CLA250&#39;s more traditionally-styled rivals, such as the&nbsp;<a href=\"https://www.caranddriver.com/audi/a3\" target=\"_blank\">Audi A3</a>, the&nbsp;<a href=\"https://www.caranddriver.com/bmw/2-series-gran-coupe\" target=\"_blank\">BMW 2-series Gran Coupe</a>, or the&nbsp;<a href=\"https://www.caranddriver.com/cadillac/ct4\" target=\"_blank\">Cadillac CT4</a>.</p>",
+        "car_photo": "photos/2022/09/24/ut5ji6ospp52ztzdzetv.jpg",
+        "car_photo_1": "photos/2022/09/24/hdnh3javx6brtc2528so.jpg",
+        "car_photo_2": "photos/2022/09/24/drmqjyxp3uoojjqpvxzc.jpg",
+        "car_photo_3": "photos/2022/09/24/xplwptttfju1rtib0pbz.jpg",
+        "car_photo_4": "photos/2022/09/24/rfgygo577rtiroeo0a2x.jpg",
+        "features": "Cruise Control,Audio Interface,Sound system,Smartphone integration,Head-Up display,Airbags,Air Conditioning,Seat Heating,Alarm System,ParkAssist,Power Steering,Reversing Camera,Front Camera,Direct Fuel Injection,Auto Start/Stop,Wind Deflector,Bluetooth Handset,Central locking,Keyless,Motor heater,Traffic sign recognition,Power windows,Roof Opening Mechanism,Tire-pressure monitoring system,Heated steering wheel,Heated windshield,ABS brakes,Adaptive headlights,Collision avoidance system,Isofix-ready,Curve lights,LED-headlights,Traction control,Fog lights,Blind spot sensor,Immobilizer,Alloy wheels,Rain Sensor,Trunk temp-control device,Air suspension,Two sets of tyres,Driving assistant,Multiactive Steering Wheel",
+        "body_style": "Sedan",
+        "engine": "2.8l",
+        "transmission": "Manual",
+        "interior": "Leather",
+        "miles": 76000,
+        "doors": "5",
+        "passengers": 5,
+        "vin_no": "XXJKOP",
+        "mileage": 8,
+        "fuel_type": "Petrol",
+        "no_of_owners": "2",
+        "is_featured": false,
+        "created_date": "2022-09-24T02:58:17Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 4,
+    "fields": {
+        "car_title": "Ford Mustang Mach-E",
+        "state": "Keski-Suomi",
+        "city": "Jyväskylä",
+        "color": "White",
+        "model": "Mach-E",
+        "year": 2022,
+        "condition": "Used",
+        "price": 59900,
+        "description": "<p><span style=\"color:#4d4d4d\"><span style=\"background-color:#ffffff\">Introducing the Mustang&nbsp;Mach-E: Ford&#39;s first all-electric SUV.&nbsp;Sculptural design, cutting-edge technology and a range of up to 610 km on a single charge.&nbsp;</span></span><span style=\"color:#4d4d4d\"><span style=\"background-color:#ffffff\">Mustang&nbsp;Mach-E&nbsp;is a fully electric&nbsp;SUV&nbsp;that accelerates immediately when you step on the gas.&nbsp;The acceleration of the GT model&nbsp;from zero to 100 kilometres per hour is only 3.7 seconds.&nbsp;</span></span><span style=\"color:#4d4d4d\"><span style=\"background-color:#ffffff\">Get ready to fall in love with driving over and over again.</span></span></p>\r\n\r\n<p>The car&#39;s technical data (consumption, charging time, operating range) may differ substantially from the values ​​declared by the manufacturer.&nbsp;In electric and hybrid cars, the use of the electric motor may be limited in winter conditions.</p>",
+        "car_photo": "photos/2022/09/26/M-1.jpeg",
+        "car_photo_1": "photos/2022/09/26/M-2.jpeg",
+        "car_photo_2": "photos/2022/09/26/M-3.jpeg",
+        "car_photo_3": "photos/2022/09/26/M-4.jpeg",
+        "car_photo_4": "photos/2022/09/26/M-5.jpeg",
+        "features": "Cruise Control,Audio Interface,Sound system,Smartphone integration,Head-Up display,Airbags,Air Conditioning,Seat Heating,Alarm System,ParkAssist,Power Steering,Reversing Camera,Front Camera,Direct Fuel Injection,Auto Start/Stop,Wind Deflector,Bluetooth Handset,Central locking,Keyless,Motor heater,Traffic sign recognition,Power windows,Tire-pressure monitoring system,Heated steering wheel,Heated windshield,ABS brakes,Adaptive headlights,Collision avoidance system,Isofix-ready,Curve lights,LED-headlights,Traction control,Fog lights,Blind spot sensor,Immobilizer,Alloy wheels,Rain Sensor,Turbo,Trunk temp-control device,Sun hatch,Plug-in charging for hybrid vehicles,Sunroof,Air suspension,Two sets of tyres,Driving assistant,Multiactive Steering Wheel",
+        "body_style": "SUV",
+        "engine": "75kWh 269hp A1",
+        "transmission": "Auto",
+        "interior": "Leather",
+        "miles": 14000,
+        "doors": "5",
+        "passengers": 5,
+        "vin_no": "TX5NM0ZX5LP",
+        "mileage": 7,
+        "fuel_type": "Electric",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2022-09-26T16:35:45Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 5,
+    "fields": {
+        "car_title": "Audi e-tron : S line quattro",
+        "state": "Pohjois-Pohjanmaa",
+        "city": "Oulu",
+        "color": "White",
+        "model": "e-tron",
+        "year": 2020,
+        "condition": "Used",
+        "price": 74900,
+        "description": "<p>Audi&rsquo;s new electric SUV has officially arrived in Ireland and it is fast becoming a top-searched electric model on Carzone. The e-tron rivals other premium electric SUVs such as Tesla&rsquo;s Model X, the Jaguar I-Pace and Mercedes-Benz EQC. With an understated&nbsp;presence, up to 391 kilometres of range,&nbsp;a premium cabin and Audi&#39;s latest and greatest technology at its core, the e-tron is a competitive new option in the premium electric class. We recently spent a week with the e-tron on Irish roads to see what it&rsquo;s like to live with and how it compares to the best electric models on the market right now.</p>",
+        "car_photo": "photos/2022/09/26/a-1.jpeg",
+        "car_photo_1": "photos/2022/09/26/a-2.jpeg",
+        "car_photo_2": "photos/2022/09/26/a-3.jpeg",
+        "car_photo_3": "photos/2022/09/26/a-4.jpeg",
+        "car_photo_4": "photos/2022/09/26/a-5.jpeg",
+        "features": "Cruise Control,Audio Interface,Sound system,Smartphone integration,Airbags,Air Conditioning,Seat Heating,Alarm System,ParkAssist,Power Steering,Reversing Camera,Front Camera,Direct Fuel Injection,Auto Start/Stop,Wind Deflector,Bluetooth Handset,Central locking,Keyless,Motor heater,Traffic sign recognition,Power windows,Roof Opening Mechanism,Tire-pressure monitoring system,Heated steering wheel,Heated windshield,ABS brakes,Adaptive headlights,Collision avoidance system,Isofix-ready,Curve lights,LED-headlights,Traction control,Fog lights,Blind spot sensor,Immobilizer,Alloy wheels,Rain Sensor,Turbo,Trunk temp-control device,Sun hatch,Plug-in charging for hybrid vehicles,Sunroof,Air suspension,Two sets of tyres,Driving assistant,Multiactive Steering Wheel",
+        "body_style": "SUV",
+        "engine": "230 kW",
+        "transmission": "Auto",
+        "interior": "Fabrics",
+        "miles": 19000,
+        "doors": "5",
+        "passengers": 5,
+        "vin_no": "OT8NL3YP5XS",
+        "mileage": 7,
+        "fuel_type": "Electric",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2022-09-26T16:51:22Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 6,
+    "fields": {
+        "car_title": "Volvo V60",
+        "state": "Etelä-Savo",
+        "city": "Mikkeli",
+        "color": "Blue",
+        "model": "V60 Inscription",
+        "year": 2019,
+        "condition": "Used",
+        "price": 47400,
+        "description": "<p>If you&#39;re looking for proof that station wagons aren&#39;t dead, just take one look at the handsome, long-roofed 2019 Volvo V60: Practicality has never been sexier. In true Volvo fashion, both a standard wagon model and&nbsp;<a href=\"https://www.caranddriver.com/reviews/a26135531/2020-volvo-v60-cross-country-drive/\" target=\"_blank\">a lifted Cross Country variant</a>&nbsp;are offered, but the Cross Country won&#39;t be available until the 2020 model year.The V60 feels agile and responsive through corners, so long as you&#39;re not pushing it too hard; the T5&#39;s ride is firm but more supple than that of T6 models, which come with an adaptive suspension and 19-inch wheels that result in a stiffer ride.</p>",
+        "car_photo": "photos/2022/09/26/v60-1.jpeg",
+        "car_photo_1": "photos/2022/09/26/v60-2.jpeg",
+        "car_photo_2": "photos/2022/09/26/v60-3.jpeg",
+        "car_photo_3": "photos/2022/09/26/v60-4.jpeg",
+        "car_photo_4": "photos/2022/09/26/v60-5.jpeg",
+        "features": "Cruise Control,Audio Interface,Sound system,Smartphone integration,Airbags,Air Conditioning,Seat Heating,Alarm System,ParkAssist,Power Steering,Reversing Camera,Front Camera,Direct Fuel Injection,Auto Start/Stop,Wind Deflector,Bluetooth Handset,Central locking,Keyless,Motor heater,Power windows,Tire-pressure monitoring system,Heated steering wheel,Heated windshield,ABS brakes,Adaptive headlights,Collision avoidance system,Isofix-ready,Curve lights,LED-headlights,Traction control,Fog lights,Blind spot sensor,Immobilizer,Alloy wheels,Rain Sensor,Turbo,Trunk temp-control device,Sun hatch,Plug-in charging for hybrid vehicles,Air suspension,Two sets of tyres,Driving assistant,Multiactive Steering Wheel",
+        "body_style": "Station Wagon",
+        "engine": "T8 TwE AWD",
+        "transmission": "Auto",
+        "interior": "Leather",
+        "miles": 43000,
+        "doors": "5",
+        "passengers": 5,
+        "vin_no": "ZX5BY0HX8LO",
+        "mileage": 9,
+        "fuel_type": "Hybrid",
+        "no_of_owners": "1",
+        "is_featured": false,
+        "created_date": "2022-09-26T17:20:06Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 7,
+    "fields": {
+        "car_title": "Porsche Taycan Sport Turismo",
+        "state": "Kainuu",
+        "city": "Kajaani",
+        "color": "Metallic Blue",
+        "model": "Taycan Sport Turismo",
+        "year": 2021,
+        "condition": "Used",
+        "price": 135936,
+        "description": "<p>The best sports moments are the seconds after the runners&#39; high &ndash; when our soul is in perfect balance. With the new&nbsp;Taycan&nbsp;Sport&nbsp;Turismo&nbsp;models, this feeling can be experienced every day. Enjoy the most energetic form of inner balance. The&nbsp;Taycan&nbsp;is the pure expression of a&nbsp;Porsche&nbsp;electric sports car. Striking proportions, timeless and instantly recognisable design, and a perfect blend of performance with everyday usability.Sporty design and generous space. Uncompromising dynamics and versatile variability. Low chassis height and exceptional comfort. The new&nbsp;Taycan&nbsp;Sport&nbsp;Turismo&nbsp;combines the best of two electrifying worlds.</p>",
+        "car_photo": "photos/2022/09/26/p-1.jpeg",
+        "car_photo_1": "photos/2022/09/26/p-2.jpeg",
+        "car_photo_2": "photos/2022/09/26/p-3.jpeg",
+        "car_photo_3": "photos/2022/09/26/p-4.jpeg",
+        "car_photo_4": "photos/2022/09/26/p-5.jpeg",
+        "features": "Cruise Control,Audio Interface,Sound system,Smartphone integration,Head-Up display,Airbags,Air Conditioning,Seat Heating,ParkAssist,Power Steering,Reversing Camera,Front Camera,Direct Fuel Injection,Auto Start/Stop,Wind Deflector,Bluetooth Handset,Keyless,Motor heater,Traffic sign recognition,Power windows,Tire-pressure monitoring system,Heated steering wheel,Heated windshield,ABS brakes,Adaptive headlights,Isofix-ready,Curve lights,LED-headlights,Traction control,Fog lights,Xenon light,Blind spot sensor,Immobilizer,Alloy wheels,Rain Sensor,Turbo,Trunk temp-control device,Sun hatch,Sunroof,Air suspension,Two sets of tyres,Driving assistant",
+        "body_style": "Hatchback",
+        "engine": "NA",
+        "transmission": "Auto",
+        "interior": "Fabrics",
+        "miles": 20000,
+        "doors": "5",
+        "passengers": 5,
+        "vin_no": "VT8BG37U5KS",
+        "mileage": 6,
+        "fuel_type": "Electric",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2022-09-26T18:05:18Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 1,
+    "fields": {
+        "first_name": "David",
+        "last_name": "Smith",
+        "designation": "CEO",
+        "photo": "photos/2022/09/22/david_y3wpNuC.jpg",
+        "facebook_link": "http://www.facebook.com",
+        "twitter_link": "http://www.twitter.com",
+        "google_plus_link": "http://www.google.com",
+        "created_date": "2022-09-22T13:07:28.283Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 3,
+    "fields": {
+        "first_name": "Koushik",
+        "last_name": "Dey",
+        "designation": "Founder & Software Developer",
+        "photo": "photos/2022/09/22/koushik_WHtYOh3.jpg",
+        "facebook_link": "http://www.facebook.com",
+        "twitter_link": "http://www.twitter.com",
+        "google_plus_link": "http://www.google.com",
+        "created_date": "2022-09-22T15:38:04.045Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 4,
+    "fields": {
+        "first_name": "Dipok",
+        "last_name": "Sarker",
+        "designation": "Web Developer & Sales",
+        "photo": "photos/2022/09/22/dipok.jpg",
+        "facebook_link": "http://www.facebook.com",
+        "twitter_link": "http://www.twitter.com",
+        "google_plus_link": "http://www.google.com",
+        "created_date": "2022-09-22T15:42:10.010Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 5,
+    "fields": {
+        "first_name": "Riina",
+        "last_name": "Dey",
+        "designation": "Marketing Manager",
+        "photo": "photos/2022/09/22/riina.jpg",
+        "facebook_link": "http://www.facebook.com",
+        "twitter_link": "http://www.twitter.com",
+        "google_plus_link": "http://www.google.com",
+        "created_date": "2022-09-22T15:44:44.777Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 6,
+    "fields": {
+        "first_name": "Aktarul",
+        "last_name": "Ahsan",
+        "designation": "Head of Business Development",
+        "photo": "photos/2022/09/22/rumon.jpg",
+        "facebook_link": "http://www.facebook.com",
+        "twitter_link": "http://www.twitter.com",
+        "google_plus_link": "http://www.google.com",
+        "created_date": "2022-09-22T15:51:41.136Z"
+    }
+},
+{
+    "model": "pages.client",
+    "pk": 1,
+    "fields": {
+        "name": "Rosa",
+        "email": "rosa@gmail.com",
+        "subject": "Car",
+        "phone": "0035826846789",
+        "message": "hello!"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 12,
+    "fields": {
+        "first_name": "Koushik",
+        "last_name": "Dey",
+        "car_id": 1,
+        "customer_need": "I'd like to test drive this",
+        "car_title": "Volvo XC90",
+        "city": "Helsinki",
+        "state": "Vantaa",
+        "email": "finfotek80@gmail.com",
+        "phone": "003582689098",
+        "message": "                      mm",
+        "user_id": 1,
+        "create_date": "2022-10-16T09:33:50.316Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 14,
+    "fields": {
+        "first_name": "Luna",
+        "last_name": "Dog",
+        "car_id": 3,
+        "customer_need": "I'm interested in this",
+        "car_title": "Mercedes-Benz CLA",
+        "city": "Helsinki",
+        "state": "Vantaa",
+        "email": "luna@gmail.com",
+        "phone": "0035826846789",
+        "message": "                      nn",
+        "user_id": 6,
+        "create_date": "2022-10-16T19:36:26.814Z"
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$390000$dILN5jb2hhQFZ6UXF03xXe$c+G8Q+vueKpiqMp7Daw0IAoHvCv0Wy7z+5FDbI78BCo=",
+        "last_login": "2022-10-25T09:44:44.116Z",
+        "is_superuser": true,
+        "username": "Djangoadmin",
+        "first_name": "Koushik",
+        "last_name": "Dey",
+        "email": "finfotek80@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-09-22T11:27:01Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$390000$99dpOut0BtpcODj4t9Yj4Z$F/Yjv2lZ74SA2mB0Qi02O5wVVlRXjOUd797JqL1PKzQ=",
+        "last_login": "2022-10-05T15:11:26.161Z",
+        "is_superuser": false,
+        "username": "rajon",
+        "first_name": "Koushik",
+        "last_name": "Dey",
+        "email": "raj_on@hotmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-09-29T20:42:11.324Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "!gRy6Xomc5ATVpY3En3mYfFqb7MaWBgMKZFJLbOsA",
+        "last_login": "2022-10-14T22:17:28.315Z",
+        "is_superuser": false,
+        "username": "raj",
+        "first_name": "Ŗąĵ",
+        "last_name": "Ōŋ",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-09-30T10:59:16.117Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$390000$rSrf3cZnlUZeK1B2DdcZ9A$smEciVX9qyn/TvErrfebtN4l3DwpkYsn0XbkHDFv6K8=",
+        "last_login": "2022-10-05T06:21:45.541Z",
+        "is_superuser": false,
+        "username": "rosa",
+        "first_name": "Rosabella ",
+        "last_name": "Dey",
+        "email": "rosa@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-10-05T06:21:45.274Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$390000$P3TYhYINyH5bJEWXVBdQ8c$yJpfoLT+a4AnjUMEcKO7+XjbFBxFMxS84VlwSuKR2RY=",
+        "last_login": "2022-10-25T13:05:25.419Z",
+        "is_superuser": false,
+        "username": "luna",
+        "first_name": "Luna",
+        "last_name": "Dog",
+        "email": "luna@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-10-13T20:18:10.449Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "bwp3wz87r0nup3qfjcztgdeao1u6zbw5",
+    "fields": {
+        "session_data": "MmM5MDcxM2NmOWFiOTg0YWQ0ODE4ZDNhYjM4YWQ2NGIyMzM5NThiZTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI3NGVmNzQzOTAwNGRiZDNkYTE0NDRjYTFhY2I5NWY0Y2FhNDZmMjMyIn0=",
+        "expire_date": "2022-10-06T11:29:40.898Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "va7vu7koi2apquicd06btanbynt7nskx",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSHlDS7d-w1kBgapGkhKuzL-uzbpQrf3nHNfLMK21rgNWuKc2ZkJdvrdENKD2g7yHdqt89TbuszId4UfdPBrz_S8HO7fQYVRv3USpLMROKEipyZNEoCM1d4oShl1Sq5AUNpgMEJg8NJ5K20pXmEAAvb-AO9PODM:1oeNbR:35mKmGvzkoNnPg4KnpXn9P6uPewk6K5pLFUMdVlmQLI",
+        "expire_date": "2022-10-14T21:31:25.696Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "z4aeq85j5817pjxd0ucp6j2vdjefvt4w",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSHlDS7d-w1kBgapGkhKuzL-uzbpQrf3nHNfLMK21rgNWuKc2ZkJdvrdENKD2g7yHdqt89TbuszId4UfdPBrz_S8HO7fQYVRv3USpLMROKEipyZNEoCM1d4oShl1Sq5AUNpgMEJg8NJ5K20pXmEAAvb-AO9PODM:1ocBTt:hpHTwMVWVlGfz3CPAE-xOipC7xP6rr2KxpPpDdE9hKA",
+        "expire_date": "2022-10-08T20:10:33.520Z"
+    }
+},
+{
+    "model": "sites.site",
+    "fields": {
+        "domain": "localhost:8000",
+        "name": "localhost:8000"
+    }
+},
+{
+    "model": "sites.site",
+    "fields": {
+        "domain": "blizzard-car.herokuapp.com",
+        "name": "blizzard-car"
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 1,
+    "fields": {
+        "provider": "facebook",
+        "name": "Facebook login",
+        "client_id": "1151420165725051",
+        "secret": "4fc3a55253316ef0d2764272d0837e47",
+        "key": "",
+        "sites": [
+            [
+                "blizzard-car.herokuapp.com"
+            ],
+            [
+                "localhost:8000"
+            ]
+        ]
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 2,
+    "fields": {
+        "provider": "google",
+        "name": "Google Login",
+        "client_id": "370255906347-vl0lr3ntvt76mt8tj5ja3jt7o0rv218o.apps.googleusercontent.com",
+        "secret": "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",
+        "key": "",
+        "sites": [
+            [
+                "blizzard-car.herokuapp.com"
+            ],
+            [
+                "localhost:8000"
+            ]
+        ]
+    }
+},
+{
+    "model": "socialaccount.socialaccount",
+    "pk": 1,
+    "fields": {
+        "user": [
+            "raj"
+        ],
+        "provider": "facebook",
+        "uid": "10166543263590084",
+        "last_login": "2022-10-14T22:17:28.308Z",
+        "date_joined": "2022-09-30T10:59:16.133Z",
+        "extra_data": "{\"id\": \"10166543263590084\", \"name\": \"\\u0156\\u0105\\u0135 \\u014c\\u014b\", \"first_name\": \"\\u0156\\u0105\\u0135\", \"last_name\": \"\\u014c\\u014b\"}"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2022-09-22T11:32:54.226Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "djangoadmin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2022-09-22T13:07:28.286Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Team object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2022-09-22T13:07:39.548Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "2",
+        "object_repr": "Team object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2022-09-22T13:09:51.937Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "2",
+        "object_repr": "Team object (2)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2022-09-22T13:09:59.224Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Team object (1)",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2022-09-22T14:11:04.236Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "David",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2022-09-22T15:38:04.047Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "3",
+        "object_repr": "Koushik",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2022-09-22T15:42:10.012Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "4",
+        "object_repr": "Dipok",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2022-09-22T15:44:44.779Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "5",
+        "object_repr": "Riina",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2022-09-22T15:51:41.138Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "6",
+        "object_repr": "Aktarul",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2022-09-22T16:48:15.541Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "6",
+        "object_repr": "Aktarul",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2022-09-22T16:48:29.470Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "5",
+        "object_repr": "Riina",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2022-09-22T16:48:38.638Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "4",
+        "object_repr": "Dipok",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2022-09-22T16:48:49.775Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "3",
+        "object_repr": "Koushik",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2022-09-22T16:49:00.626Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "David",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2022-09-22T16:50:29.291Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "5",
+        "object_repr": "Riina",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Designation\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2022-09-22T16:53:21.071Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "3",
+        "object_repr": "Koushik",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2022-09-22T21:28:15.847Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "4",
+        "object_repr": "Dipok",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Designation\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2022-09-22T21:29:28.742Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "3",
+        "object_repr": "Koushik",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Designation\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2022-09-22T21:29:48.962Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "4",
+        "object_repr": "Dipok",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Designation\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2022-09-24T22:52:16.570Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "Volvo",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2022-09-24T22:54:18.468Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "Volvo",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Mileage\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2022-09-24T22:54:34.344Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "Volvo",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"No of owners\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2022-09-24T23:15:39.817Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "BMW",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2022-09-24T23:18:28.460Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "BMW",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Mileage\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2022-09-24T23:56:22.680Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "Mercedes-Benz",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2022-09-24T23:58:19.441Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "Mercedes-Benz",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Created date\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2022-09-24T23:58:27.776Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "BMW",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Created date\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2022-09-24T23:59:05.819Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "Volvo",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Created date\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2022-09-24T23:59:10.835Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "Volvo",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2022-09-24T23:59:26.931Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "BMW",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Created date\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2022-09-24T23:59:35.911Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "Mercedes-Benz",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Created date\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2022-09-25T10:18:00.493Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "Volvo",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2022-09-25T10:36:52.558Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "5",
+        "object_repr": "Riina",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Designation\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2022-09-25T15:50:48.588Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "Mercedes-Benz",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2022-09-25T15:50:48.594Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "BMW",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2022-09-25T15:50:48.596Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "Volvo",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2022-09-25T16:11:45.326Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "BMW",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Price\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2022-09-25T18:40:10.826Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "Mercedes-Benz CLA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Car title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2022-09-25T18:40:21.062Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "BMW X1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Car title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2022-09-25T18:40:46.960Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "Volvo XC90",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Car title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2022-09-25T19:18:49.893Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "Mercedes-Benz CLA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Transmission\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2022-09-26T12:12:38.065Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "Mercedes-Benz CLA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Miles\", \"Mileage\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2022-09-26T12:13:05.454Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "BMW X1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Miles\", \"Mileage\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2022-09-26T12:13:36.024Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "Volvo XC90",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Miles\", \"Mileage\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2022-09-26T12:16:03.165Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "Mercedes-Benz CLA",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2022-09-26T16:50:47.314Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "Ford Mustang Mach-E",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2022-09-26T17:05:18.229Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "5",
+        "object_repr": "Audi e-tron : S line 55 quattro Bang & Olufsen",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2022-09-26T17:22:43.445Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "6",
+        "object_repr": "Volvo V60",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2022-09-26T17:23:23.261Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "Mercedes-Benz CLA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2022-09-26T18:08:32.985Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "7",
+        "object_repr": "Porsche Taycan Sport Turismo",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2022-09-26T18:09:15.061Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "BMW X1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2022-09-26T18:09:29.209Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "Volvo XC90",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2022-09-26T20:01:43.873Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "5",
+        "object_repr": "Audi e-tron : S line quattro",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Car title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2022-09-27T17:49:25.653Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "7",
+        "object_repr": "Porsche Taycan Sport Turismo",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Body style\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2022-09-30T10:05:39.249Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Facebook login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2022-09-30T10:08:53.234Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "1",
+        "object_repr": "localhost:8000",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2022-09-30T14:46:28.759Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "2",
+        "object_repr": "Google Login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2022-10-04T17:03:18.165Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "client"
+        ],
+        "object_id": "1",
+        "object_repr": "rosa@gmail.com",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2022-10-05T15:13:57.014Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "6",
+        "object_repr": "raj_on@hotmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2022-10-05T15:14:10.123Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "5",
+        "object_repr": "raj_on@hotmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2022-10-05T15:14:10.125Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "4",
+        "object_repr": "raj_on@hotmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2022-10-05T15:14:10.126Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "3",
+        "object_repr": "rosa@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+        "action_time": "2022-10-05T15:14:10.127Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "2",
+        "object_repr": "raj_on@hotmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+        "action_time": "2022-10-14T15:56:00.297Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "2",
+        "object_repr": "'blizzard-car.herokuapp.com'",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+        "action_time": "2022-10-14T15:56:18.074Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "2",
+        "object_repr": "'blizzard-car.herokuapp.com'",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+        "action_time": "2022-10-14T15:57:13.501Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "3",
+        "object_repr": "blizzard-car.herokuapp.com",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+        "action_time": "2022-10-14T16:00:56.637Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "2",
+        "object_repr": "Google Login",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Sites\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+        "action_time": "2022-10-14T16:01:05.595Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Facebook login",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Sites\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+        "action_time": "2022-10-14T16:23:54.286Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "3",
+        "object_repr": "blizzard-car.herokuapp.com",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+        "action_time": "2022-10-14T16:23:58.516Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "3",
+        "object_repr": "blizzard-car.herokuapp.com",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+        "action_time": "2022-10-14T16:37:00.538Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Facebook login",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+        "action_time": "2022-10-14T16:37:34.612Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Facebook login",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+        "action_time": "2022-10-14T18:20:37.793Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "3",
+        "object_repr": "blizzard-car.herokuapp.com",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+        "action_time": "2022-10-14T18:21:43.019Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "7",
+        "object_repr": "luna@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+        "action_time": "2022-10-14T18:21:43.021Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "1",
+        "object_repr": "finfotek80@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+        "action_time": "2022-10-14T18:22:55.637Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "3",
+        "object_repr": "blizzard-car.herokuapp.com",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Display name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+        "action_time": "2022-10-14T20:09:48.971Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "Djangoadmin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Username\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+        "action_time": "2022-10-15T14:04:21.225Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "9",
+        "object_repr": "luna@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+        "action_time": "2022-10-15T14:04:21.232Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "8",
+        "object_repr": "luna@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+        "action_time": "2022-10-16T09:36:33.457Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "4",
+        "object_repr": "finfotek",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+        "action_time": "2022-10-16T13:13:43.555Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "13",
+        "object_repr": "luna@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+        "action_time": "2022-10-16T13:13:43.558Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "11",
+        "object_repr": "luna@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+        "action_time": "2022-10-16T13:13:43.561Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "10",
+        "object_repr": "luna@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+}
+]

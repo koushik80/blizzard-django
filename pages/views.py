@@ -6,7 +6,8 @@ from django.contrib.auth.models import User
 from django.contrib import messages
 
 
-# Create your views here.
+# here are my pages views for blizzard.
+# Created functions home, about, services and contact.
 
 def home(request):
     teams = Team.objects.all()

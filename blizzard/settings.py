@@ -41,7 +41,7 @@ ALLOWED_HOSTS = []
 LOGIN_REDIRECT_URL = 'dashboard'
 
 
-# Application definition
+# Here are all my Application definition
 
 INSTALLED_APPS = [
     'cars.apps.CarsConfig',
