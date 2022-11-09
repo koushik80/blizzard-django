@@ -1,6 +1,6 @@
 from django.test import TestCase
 from django.urls import reverse
-from .models import Team, Client
+from .models import Contact
 
 # Created tests here.
 
@@ -22,5 +22,10 @@ class ContactTests(TestCase):  # new
         self.assertContains(response, "<h5>Email:</h5>")
         self.assertNotContains(response, "Should not be here!")
 
+# Contact model test
 
+class ContactModelTest(TestCase):
 
+    def test_string_email(self):
+        contact = Contact(email = "Users email address", user_id = "Users ID")
+        self.assertEqual(str(contact), contact.email, contact.user_id)

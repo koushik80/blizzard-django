@@ -85,6 +85,7 @@ class TeamModelTest(TestCase):
         self.assertEqual(str(team), team.first_name, team.last_name)
 
 class ClientModelTest(TestCase):
+
     def test_string_name(self):
         client = Client(name= "Client's name", email = "Client's email address")
         self.assertEqual(str(client), client.name, client.email)
