@@ -111,7 +111,7 @@ DATABASES = {
     }
 }
 
-#for heroku server....put password before
+#for heroku server....use password before
 
 #DATABASES = {'default': dj_database_url.config(default='postgres://postgres:password****@localhost/blizzard_db')}
 
@@ -188,8 +188,8 @@ EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
 EMAIL_USE_TLS = True
 
 
-# Email sending : https://docs.djangoproject.com/en/4.1/topics/email/
-# https://support.google.com/mail/answer/185833?hl=en-GB
+# [ Email sending : https://docs.djangoproject.com/en/4.1/topics/email/
+# https://support.google.com/mail/answer/185833?hl=en-GB ]
 
 
 # whitenoise settings

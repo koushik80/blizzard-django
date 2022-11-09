@@ -1,4 +1,4 @@
-# Hi there👋! Here goes below my Project information
+# Hi there👋 <img src="https://media.giphy.com/media/l4S95aLS28TNZDlzbX/giphy.gif" width="50" height="50"/>! Here goes below my Project information
 
 <div>
 <h4 align="center"><a href="https://blizzard-car.herokuapp.com/">ßLIZZARD @ Accelerate the excitement</a></h4>
@@ -167,9 +167,10 @@
 
 <p align="left">By default, the project runs with DEBUG=True.</p>
 
-<h4 align="left">Now you should be able to run the project locally: :man_technologist:</h4>
+<h4 align="left">Should be able to run and test the project locally: :man_technologist:</h4>
 <ul>
 <li>python manage.py runserver</li>
+<li>python manage.py test</li>
 </ul>
 <p align="left">The server should be running on localhost: 8000</p>
 
