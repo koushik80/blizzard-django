@@ -5,7 +5,7 @@ from django.core.mail import send_mail
 from django.contrib.auth.models import User
 
 
-# Create your views here.
+# Created function for inquiry here.
 
 def inquiry(request):
     if request.method == 'POST':

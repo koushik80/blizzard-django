@@ -1,7 +1,7 @@
 #from distutils.command.upload import upload
 from django.db import models
 
-# Create your models here.
+# Created models for Team and Clients.
 
 class Team(models.Model):
     first_name = models.CharField(max_length=255)

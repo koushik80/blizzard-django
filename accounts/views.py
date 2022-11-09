@@ -5,7 +5,7 @@ from django.contrib.auth.decorators import login_required
 from contacts.models import Contact
 
 
-# Create your views here.
+# Created functions for authentication.
 
 def login(request):
     if request.method == 'POST':

@@ -3,7 +3,7 @@ from .models import Team
 from .models import Client
 from django.utils.html import format_html
 
-# Register your models here.
+# Registered Team and Client models here.
 class TeamAdmin(admin.ModelAdmin):
     def thumbnail(self, object):
         return format_html('<img src="{}" width="40" style="border-radius: 10px;" />'.format(object.photo.url))
