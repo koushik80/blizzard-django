@@ -482,6 +482,6 @@ $(function () {
 
 // to disappear error messages after certain moment (4sec)
 
-setTimeout(function () {
+setTimeout(function(){
     $('#message').fadeOut('slow');
  }, 4000)

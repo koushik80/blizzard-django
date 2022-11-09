@@ -1,6 +1,6 @@
 from django.test import TestCase
 from django.urls import reverse
-# Create your tests here.
+# Created my tests here.
 
 class CarsTests(TestCase):  # new
     def test_url_exists_at_correct_location(self):
@@ -19,6 +19,7 @@ class CarsTests(TestCase):  # new
         response = self.client.get(reverse("cars"))
         self.assertContains(response, "<h1>Our Car Inventory</h1>")
         self.assertNotContains(response, "Should not be here!")
+
 
 
 class SearchTests(TestCase):  # new
