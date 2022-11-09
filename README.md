@@ -1,4 +1,4 @@
-# Hi there👋 <img src="https://media.giphy.com/media/l4S95aLS28TNZDlzbX/giphy.gif" width="50" height="50"/>! Here goes below my Project information
+# Hi there<img src="https://media.giphy.com/media/l4S95aLS28TNZDlzbX/giphy.gif" width="50" height="50"/>! Here goes below my Project information
 
 <div>
 <h4 align="center"><a href="https://blizzard-car.herokuapp.com/">ßLIZZARD @ Accelerate the excitement</a></h4>
