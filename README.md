@@ -30,8 +30,7 @@
 
 <h3 align="left">Abstract: :speech_balloon:</h3>
 
-<div align="left">This application will be built to learn and implement as a part of an internship where the main target is to gain deeper knowledge about web development. And the goal is to analyze and learn tools for web back-end development such as Python programming Language and Django web framework, practice building complex systems using them, and learn to design server architecture. The challenge will make my skills stronger. The implementation strives to be simple.<br>
-<h4 align="left">N.B: This project is under development, and I will keep updating the latest information on features, user stories and target groups of this web project in this README during the development period...The project will be deployed & linked up after finalized</h4>
+<div align="left">This application will be built to learn and implement as a part of an internship where the main target is to gain deeper knowledge about web development. And the goal is to analyze and learn tools for web back-end development such as Python programming Language and Django web framework, practice building complex systems using them, and learn to design server architecture. The challenge made my skills stronger. The implementation strives to be simple.<br>
 </div>
 
 ---
@@ -39,10 +38,10 @@
 <h3 align="left">Target Group: :family_man_woman_girl_girl:</h3>
 
 <ul>
-<li>Will be added soon</li>
-<li></li>
-<li></li>
-<li></li>
+<li>A new entrepreneur who wants to start car selling business.</li>
+<li>A person who wants to start an exchange car business in a small range.</li>
+<li>A person who knows repairing old or faulty cars and wishes to sell after repair at the desired price.</li>
+<li>A car garage can also use this app for selling tuned cars and parts.</li>
 </ul>
 
 ---
@@ -57,18 +56,13 @@
 <li>Users are able to send messages by clicking Get in Touch button form the home page.</li>
 <li>Users can connect to any team members by their social media link.</li>
 <li>If the user clicks on one specific model, he or she can check the description of the car, more pictures, and features.</li>
-<li>If a user is interested in one specific model, then he or she can send an inquiry to know more details by clicking send message button.</li>
+<li>If a user is interested in any specific model, then he or she can send an inquiry to know more details by clicking send message button.</li>
 <li>Users can register and login.</li>
 <li>Users can also login with Facebook and Google accounts.</li>
 <li>After login to the site users will be redirected to the dashboard and see their previous inquiries.</li>
 <li>Users can send messages by clicking Get in Touch button on the home page.</li>
 <li>Dealers can use the Admin panel to create their own accounts and update & remove data from the database.</li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+<li>Dealers can receive emails or inquiries from the clients</li>
 <li>Working on dashboard functionality, customer review,Inquiry form,Contact page, sending email, Forcing user to login, Checking for existing inquiry... </li>
 </ol>
 
@@ -95,7 +89,7 @@
 
 <ul>
 <p>Make a real project according to the client’s requirements</p>
-<p>Implement HTML/Bootstrap template & Customise Django Admin Panel</p>
+<p>Implement HTML/Bootstrap template & Customize Django Admin Panel</p>
 <p>PostgreSQL Database & Deploy it into Production Server</p>
 <p>Setup Virtual Environment</p>
 <p>Creating Django Apps</p>
@@ -109,7 +103,7 @@
 <p>Pagination</p>
 <p>Search Functionality</p>
 <p>User Authentication</p>
-<p>Login with Facebook & Login with Google</p>
+<p>Login with Facebook & Google</p>
 <p>Send Emails</p>
 <p>Database Dump Data & Load Data (local & remote)</p>
 <p>Deploy on Heroku Server (Gunicorn, Whitenoise)</p>
@@ -119,7 +113,7 @@
 ---
 
 <h3 align="left"> Prerequisites: :gear:</h3>
-<p align="left">To be able to set up and run the project you need</p>
+<p align="left">To be able to set up and run the project needed to install in local computer</p>
 <ul>
 <li>python3</li>
 <li>pip</li>
@@ -171,7 +165,7 @@
 <li>python manage.py migrate</li>
 </ul>
 
-<p align="left">By default, the project runs with DEBUG=True and SQLite database.</p>
+<p align="left">By default, the project runs with DEBUG=True.</p>
 
 <h4 align="left">Now you should be able to run the project locally: :man_technologist:</h4>
 <ul>
@@ -185,14 +179,16 @@
 
 <ul>
 <li><a href="https://docs.djangoproject.com/en/4.1/" target="_blank">django</a></li>
-<li><a href="https://www.udemy.com/" target="_blank">udemy</a></li>
+<li><a href="https://www.udemy.com/" target="_blank">Udemy</a></li>
 <li><a href="https://unsplash.com/s/photos/jpg" target="_blank">Unsplash</a></li>
 <li><a href="https://www.youtube.com/watch?v=QaZrWIvAFsA" target="_blank">Recoding</a></li>
 <li><a href="https://postgresapp.com/" target="_blank">Postgres.app</a></li>
 <li><a href="https://pypi.org/project/django-likert-field/" target="_blank">Likert field</a></li>
 <li><a href="https://support.google.com/mail/answer/185833?hl=en-GB" target="_blank">Gmail Help</a></li>
-<li><a href=""></a></li>
-<li><a href=""></a></li>
+<li><a href="https://console.cloud.google.com/" target="_blank">Google Cloud</a></li>
+<li><a href="https://developers.facebook.com/" target="_blank">Meta</a></li>
+<li><a href="https://test-driven-django-development.readthedocs.io/en/latest/02-models.html" target="_blank">Test-Driven Django Development</a></li>
+<li><a href="https://www.youtube.com/watch?v=GBgRMdjAx_c" target="_blank">Learn Django</a></li>
 </ul>
 
 ---
