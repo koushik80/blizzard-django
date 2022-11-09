@@ -47,7 +47,7 @@ class SearchTests(TestCase):  # new
 class CarModelTest(TestCase):
 
     def test_string_car_title(self):
-        title = Car(car_title = "Cars title", features = "Cars Specs")
+        title = Car(car_title = "Cars shape", features = "Cars Specs")
         self.assertEqual(str(title), title.car_title, title.features)
 
 
