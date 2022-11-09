@@ -39,3 +39,8 @@ class SearchTests(TestCase):  # new
         response = self.client.get(reverse("search"))
         self.assertContains(response, "<h1>Search Results</h1>")
         self.assertNotContains(response, "Should not be here!")
+
+
+
+
+

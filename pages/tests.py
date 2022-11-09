@@ -1,7 +1,8 @@
 from django.test import TestCase
 from django.urls import reverse
+from .models import Team, Client
 
-# Create your tests here.
+# Created tests here.
 
 
 class HomepageTests(TestCase):
@@ -75,3 +76,15 @@ class ServicesPageTests(TestCase):  # new
         response = self.client.get(reverse("services"))
         self.assertContains(response, "<h3>Super Fast</h3>")
         self.assertNotContains(response, "Should not be here!")
+
+# Model tests
+class TeamModelTest(TestCase):
+
+    def test_string_representation(self):
+        team = Team(first_name = "first name", last_name = "last name")
+        self.assertEqual(str(team), team.first_name, team.last_name)
+
+class ClientModelTest(TestCase):
+    def test_string_name(self):
+        client = Client(name= "Client's name", email = "Client's email address")
+        self.assertEqual(str(client), client.name, client.email)

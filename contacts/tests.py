@@ -1,6 +1,8 @@
 from django.test import TestCase
 from django.urls import reverse
-# Create your tests here.
+from .models import Team, Client
+
+# Created tests here.
 
 class ContactTests(TestCase):  # new
     def test_url_exists_at_correct_location(self):
@@ -19,3 +21,6 @@ class ContactTests(TestCase):  # new
         response = self.client.get(reverse("contact"))
         self.assertContains(response, "<h5>Email:</h5>")
         self.assertNotContains(response, "Should not be here!")
+
+
+
