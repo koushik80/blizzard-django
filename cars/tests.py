@@ -1,5 +1,7 @@
 from django.test import TestCase
 from django.urls import reverse
+from .models import Car
+
 # Created my tests here.
 
 class CarsTests(TestCase):  # new
@@ -40,7 +42,13 @@ class SearchTests(TestCase):  # new
         self.assertContains(response, "<h1>Search Results</h1>")
         self.assertNotContains(response, "Should not be here!")
 
+# Car model test
 
+class CarModelTest(TestCase):
+
+    def test_string_car_title(self):
+        title = Car(car_title = "Cars title", features = "Cars Specs")
+        self.assertEqual(str(title), title.car_title, title.features)
 
 
 
