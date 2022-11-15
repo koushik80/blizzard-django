@@ -1,7 +1,7 @@
 from django.test import TestCase
 from django.urls import reverse, resolve
 from .models import Car
-from .views import cars, search, car_detail
+from .views import cars, search
 
 # Created url and functions tests here.
 
@@ -26,10 +26,6 @@ class CarsTests(TestCase):  # new
     def test_car_design_isresolved(self):
         url = reverse('cars')
         self.assertEqual(resolve(url).func, cars)
-
-
-
-
 class SearchTests(TestCase):
     def test_url_exists_at_correct_location(self):
         response = self.client.get("/")
