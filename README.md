@@ -30,7 +30,7 @@
 
 <h3 align="left">Abstract: :speech_balloon:</h3>
 
-<div align="left">This application will be built to learn and implement as a part of an internship where the main target is to gain deeper knowledge about web development. And the goal is to analyze and learn tools for web back-end development such as Python programming Language and Django web framework, practice building complex systems using them, and learn to design server architecture. The challenge made my skills stronger. The implementation strives to be simple.<br>
+<div align="left">This application is built to learn and implement as a part of an internship where the main target is to gain deeper knowledge about web development. And the goal is to analyse and learn tools for web back-end development such as Python programming Language and Django web framework, practice building complex systems using them, and learn to design server architecture. The challenge made my skills stronger. The implementation strives to be simple.<br>
 </div>
 
 ---
