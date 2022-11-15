@@ -1,7 +1,7 @@
 from django.test import TestCase
 from django.urls import reverse, resolve
 from .models import Contact
-from .views import inquiry
+
 
 # Created tests here.
 
