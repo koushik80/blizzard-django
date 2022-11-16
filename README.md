@@ -190,6 +190,7 @@
 <li><a href="https://developers.facebook.com/" target="_blank">Meta</a></li>
 <li><a href="https://test-driven-django-development.readthedocs.io/en/latest/02-models.html" target="_blank">Test-Driven Django Development</a></li>
 <li><a href="https://www.youtube.com/watch?v=GBgRMdjAx_c" target="_blank">Learn Django</a></li>
+<li><a href="https://www.youtube.com/watch?v=hA_VxnxCHbo&list=PLbpAWbHbi5rMF2j5n6imm0enrSD9eQUaM&index=3" target="_blank">Django Testing Tutorial-The Dumbfounds</a></li>
 </ul>
 
 ---

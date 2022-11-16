@@ -5,7 +5,7 @@ from multiselectfield import MultiSelectField
 
 
 
-# Create your models here.
+# Created car model here.
 
 class Car(models.Model):
 

@@ -1,5 +1,6 @@
 from django.test import TestCase
-from django.urls import reverse
+from django.urls import reverse, resolve
+from .views import login, register, logout
 
 
 # Created Login and Register tests here.
@@ -23,6 +24,10 @@ class LoginAccountsTests(TestCase):
         self.assertContains(response, "<h1>Login To Your Account</h1>")
         self.assertNotContains(response, "Should not be here!")
 
+    def test_login_isresolved(self):
+        url = reverse('login')
+        self.assertEqual(resolve(url).func, login)
+
 
 class RegisterAccountsTests(TestCase):
 
@@ -43,9 +48,15 @@ class RegisterAccountsTests(TestCase):
         self.assertContains(response, "<h1>Register Your Account</h1>")
         self.assertNotContains(response, "Should not be here!")
 
+    def test_register_isresolved(self):
+        url = reverse('register')
+        self.assertEqual(resolve(url).func, register)
 
 
-
+class LogoutAccountsTests(TestCase):
+    def test_logout_isresolved(self):
+        url = reverse('logout')
+        self.assertEqual(resolve(url).func, logout)
 
 
 

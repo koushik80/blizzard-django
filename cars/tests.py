@@ -5,7 +5,7 @@ from .views import cars, search
 
 # Created url and functions tests here.
 
-class CarsTests(TestCase):  # new
+class CarsTests(TestCase):
     def test_url_exists_at_correct_location(self):
         response = self.client.get("/")
         self.assertEqual(response.status_code, 200)
