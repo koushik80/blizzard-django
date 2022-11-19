@@ -177,7 +177,7 @@
 ---
 
 <h3 align="left"> Error-Handling: :gear:</h3>
-<p align="left">I faced plenty of errors during the development procedure. I mentioned a few of those errors and how I was able to fix them.</p>
+<p align="left">I faced plenty of errors during the development.I mentioned a few of those errors and how I was able to fix them.</p>
 
 <p align="left">After installing MultiSelectField(django-multiselectfield) I faced this error - "IndexError: list assignment index out of range".
 Incorrect:
@@ -185,15 +185,14 @@ Incorrect:
 ```self.validators[0] = MaxValueMultiFieldValidator(self.max_length)```
 ```features = MultiSelectField(choices=features_choices)```
 
-I solved this issue by adding max_length=100. Ref: cars-models.py
+I solved this issue by adding max_length=100.Ref: cars-models.py
 
-```features = MultiSelectField(choices=features_choices, max_length=100)```
-</p>
+```features = MultiSelectField(choices=features_choices, max_length=100)```</p>
 <p align="left">In my localhost contact and inquiry were working well. But if I send the same request from my heroku app then it was triggering this error – get() returned more than one User – it returned 2!
-Ref: contact & pages app - views.py. I used get method:
+Ref: contact & pages app - views.py. Previously I used the get() method:
 
 ```admin_info = User.objects.get(is_superuser=True)```
-Then I filter method:
+Then I used the filter() method:
 ```admin_info = admin_info = User.objects.filter(is_superuser=True)```
 
 After that I was still facing another error. But if I use filter then localhost also triggered the same error: "QuerySet object has no attribute 'email' ".  But with the get() method local host is working fine. The solution I found this way:
