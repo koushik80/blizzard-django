@@ -209,8 +209,11 @@ After that I was still facing another error. But if I use filter then localhost 
 After I got the id no I added it to the settings.py file and then added, committed and push to  heroku server. Unfortunately, the admin panel was unable to recognize the id and password. And also google and FB logins were not working. I added my_heroku_domain.com manually in the admin panel site by running the local server. The situation remains unchanged.
 
 The Admin login problem was solved on the Heroku site by creating another admin account by running this command:  heroku run python manage.py createsuperuser. And ran the command
+
 ```heroku config:set DISABLE_COLLECTSTATIC=1```
+
 and added in settings.py
+
 ```ALLOWED_HOSTS = ['blizzard-car.herokuapp.com', 'blizzardauto.fi', 'www.blizzardauto.fi' ]```</p>
 
 <p align="left">I installed ckeditor. I was facing an error importing ckeditor.fields in the  models.py  and also warning like:
@@ -224,7 +227,9 @@ pages.Team: (models.W042) Auto-created primary key used when not defining a prim
 Ref: cars-models.py
 
 For the warning, I added this to settings.py
+
 ```DEFAULT_AUTO_FIELD='django.db.models.AutoField'```
+
 For the error I corrected Field in lower case
 
 ```from ckeditor.Fields import RichTextField```
