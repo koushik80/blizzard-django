@@ -202,7 +202,8 @@ After that I was still facing another error. But if I use filter then localhost 
 ```send_mail(email_subject,message_body,'myemailaddress@gmail.com'admin_email,fail_silently=False)```</p>
 <p align="left">When I was trying to deploy the app in Heroku server I run the command  heroku run python manage.py shell and followed the procedure to register the domain and getting id for Heroku:
 
-```>>>from django.contrib.sites.models import Site >>> site = Site() >>> site.domain = 'my_heroku_domain.com' >>> site.name = 'my_heroku_domain.com' >>> site.save() >>> print(Site.objects.get(name='my_heroku_domain.com').id)
+```
+>>>from django.contrib.sites.models import Site >>> site = Site() >>> site.domain = 'my_heroku_domain.com' >>> site.name = 'my_heroku_domain.com' >>> site.save() >>> print(Site.objects.get(name='my_heroku_domain.com').id)
 ```
 
 After I got the id no I added it to the settings.py file and then added, committed and push to  heroku server. Unfortunately, the admin panel was unable to recognize the id and password. And also google and FB logins were not working. I added my_heroku_domain.com manually in the admin panel site by running the local server. The situation remains unchanged.
