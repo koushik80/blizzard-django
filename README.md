@@ -235,7 +235,8 @@ and added in settings.py
 
 ```
 ALLOWED_HOSTS = ['blizzard-car.herokuapp.com', 'blizzardauto.fi', 'www.blizzardauto.fi' ]
-```</p>
+```
+</p>
 
 <p align="left">I installed ckeditor. I was facing an error importing ckeditor.fields in the  models.py  and also warning like:
 
@@ -251,6 +252,7 @@ For the warning, I added this to settings.py
 
 ```
 DEFAULT_AUTO_FIELD='django.db.models.AutoField'
+
 ```
 
 For the error I corrected Field in lower case
@@ -262,7 +264,9 @@ from ckeditor.Fields import RichTextField
 ```
 from ckeditor.fields import RichTextField
 ```
+
 </p>
+
 
 ----
 
