@@ -5,7 +5,6 @@ from .views import home, about, services, contact
 
 # Created tests here.
 
-
 class HomepageTests(TestCase):
     def test_url_exists_at_correct_location(self):
         response = self.client.get("/")
@@ -50,7 +49,7 @@ class AboutPageTests(TestCase):  # new
         url = reverse('about')
         self.assertEqual(resolve(url).func, about)
 
-class ContactPageTests(TestCase):  # new
+class ContactPageTests(TestCase):
     def test_url_exists_at_correct_location(self):
         response = self.client.get("/contact")
         self.assertEqual(response.status_code, 200)

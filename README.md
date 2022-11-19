@@ -176,6 +176,26 @@
 
 ---
 
+<h3 align="left"> Error-Handling: :gear:</h3>
+
+<p align="left">After installing MultiSelectField(django-multiselectfield) I faced this error - "IndexError: list assignment index out of range".
+Incorrect:
+`self.validators[0] = MaxValueMultiFieldValidator(self.max_length)
+ features = MultiSelectField(choices=features_choices)
+`
+I solved this issue by adding max_length=100. Ref: cars-models.py
+`features = MultiSelectField(choices=features_choices, max_length=100)`
+
+
+
+
+</p>
+<p align="left"></p>
+<p align="left"></p>
+<p align="left"></p>
+
+----
+
 <h3 align="left">References: :paperclips:</h3>
 
 <ul>

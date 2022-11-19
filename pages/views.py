@@ -7,7 +7,7 @@ from django.contrib import messages
 
 
 # here are my pages views for blizzard.
-# Created functions home, about, services and contact.
+# Created functions for home, about, services and contact for the urls.
 
 def home(request):
     teams = Team.objects.all()
