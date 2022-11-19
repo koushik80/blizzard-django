@@ -236,6 +236,7 @@ For the error I corrected Field in lower case
 
 ```from ckeditor.fields import RichTextField```
 </p>
+
 ----
 
 <h3 align="left">References: :paperclips:</h3>
