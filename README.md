@@ -188,10 +188,11 @@ Incorrect:
 I solved this issue by adding max_length=100.Ref: cars-models.py
 
 ```features = MultiSelectField(choices=features_choices, max_length=100)```</p>
-<p align="left">In my localhost contact and inquiry were working well. But if I send the same request from my heroku app then it was triggering this error – get() returned more than one User – it returned 2!
+<p align="left">In my localhost contact and inquiry features were working well. But if I send the same request from my heroku app then it was triggering this error – get() returned more than one User – it returned 2!
 Ref: contact & pages app - views.py. Previously I used the get() method:
 
 ```admin_info = User.objects.get(is_superuser=True)```
+
 Then I used the filter() method:
 ```admin_info = admin_info = User.objects.filter(is_superuser=True)```
 
@@ -212,6 +213,21 @@ The Admin login problem was solved on the Heroku site by creating another admin 
 and added in settings.py
 ```ALLOWED_HOSTS = ['blizzard-car.herokuapp.com', 'blizzardauto.fi', 'www.blizzardauto.fi' ]```</p>
 
+<p align="left">I installed ckeditor. I was facing an error importing ckeditor.fields in the  models.py  and also warning like:
+
+```cars.Car: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+```
+```pages.Team: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+```
+Ref: cars-models.py
+
+For the warning, I added this to settings.py
+```DEFAULT_AUTO_FIELD='django.db.models.AutoField'```
+For the error I corrected Field in lower case
+```from ckeditor.Fields import RichTextField```
+
+```from ckeditor.fields import RichTextField```
+</p>
 ----
 
 <h3 align="left">References: :paperclips:</h3>
