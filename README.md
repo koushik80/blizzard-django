@@ -177,24 +177,40 @@
 ---
 
 <h3 align="left"> Error-Handling: :gear:</h3>
+<p align="left">I faced plenty of errors during the development procedure. I mentioned a few of those errors and how I was able to fix them.</p>
 
 <p align="left">After installing MultiSelectField(django-multiselectfield) I faced this error - "IndexError: list assignment index out of range".
 Incorrect:
 
-```self.validators[0] = MaxValueMultiFieldValidator(self.max_length)
-```
+```self.validators[0] = MaxValueMultiFieldValidator(self.max_length)```
 ```features = MultiSelectField(choices=features_choices)```
+
 I solved this issue by adding max_length=100. Ref: cars-models.py
 
 ```features = MultiSelectField(choices=features_choices, max_length=100)```
-
-
-
-
 </p>
-<p align="left"></p>
-<p align="left"></p>
-<p align="left"></p>
+<p align="left">In my localhost contact and inquiry were working well. But if I send the same request from my heroku app then it was triggering this error – get() returned more than one User – it returned 2!
+Ref: contact & pages app - views.py. I used get method:
+
+```admin_info = User.objects.get(is_superuser=True)```
+Then I filter method:
+```admin_info = admin_info = User.objects.filter(is_superuser=True)```
+
+After that I was still facing another error. But if I use filter then localhost also triggered the same error: "QuerySet object has no attribute 'email' ".  But with the get() method local host is working fine. The solution I found this way:
+
+```admin_email = User.objects.filter(is_superuser=True).values_list('email', flat=True)```
+```send_mail(email_subject,message_body,'myemailaddress@gmail.com'admin_email,fail_silently=False)```</p>
+<p align="left">When I was trying to deploy the app in Heroku server I run the command  heroku run python manage.py shell and followed the procedure to register the domain and getting id for Heroku:
+
+```>>>from django.contrib.sites.models import Site >>> site = Site() >>> site.domain = 'my_heroku_domain.com' >>> site.name = 'my_heroku_domain.com' >>> site.save() >>> print(Site.objects.get(name='my_heroku_domain.com').id)
+```
+
+After I got the id no I added it to the settings.py file and then added, committed and push to  heroku server. Unfortunately, the admin panel was unable to recognize the id and password. And also google and FB logins were not working. I added my_heroku_domain.com manually in the admin panel site by running the local server. The situation remains unchanged.
+
+The Admin login problem was solved on the Heroku site by creating another admin account by running this command:  heroku run python manage.py createsuperuser. And ran the command
+```heroku config:set DISABLE_COLLECTSTATIC=1```
+and added in settings.py
+```ALLOWED_HOSTS = ['blizzard-car.herokuapp.com', 'blizzardauto.fi', 'www.blizzardauto.fi' ]```</p>
 
 ----
 
