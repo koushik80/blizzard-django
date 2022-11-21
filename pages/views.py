@@ -53,13 +53,14 @@ def contact(request):
         message_body = 'Name: ' + name + '. Email: ' + email + '. Phone: ' + phone + '. Message: ' + message
 
         admin_info = User.objects.get(is_superuser=True)
-        admin_email = admin_info.email
+        admin_email = User.objects.filter(is_superuser=True).values_list('email', flat=True)
 
         send_mail( # https://docs.djangoproject.com/en/4.1/topics/email/
                 email_subject,
                 message_body,
                 'finfotek80@gmail.com',
-                [admin_email],
+                admin_info,
+                admin_email,
                 fail_silently=False,
             )
 
