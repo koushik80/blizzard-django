@@ -15,7 +15,7 @@ class TeamAdmin(admin.ModelAdmin):
     search_fields = ('first_name', 'last_name', 'designation')
     list_filter = ('designation',)
 
-admin.site.register(Team, TeamAdmin)
+admin.site.register(Team, TeamAdmin) # Registered model of Team members of Blizzard
 
 class ClientAdmin(admin.ModelAdmin):
     list_display = ('name', 'email', 'subject', 'phone', 'message')
@@ -24,5 +24,5 @@ class ClientAdmin(admin.ModelAdmin):
     list_per_page = 10
     list_filter = ('name', 'email', 'subject')
 
-admin.site.register(Client, ClientAdmin)
+admin.site.register(Client, ClientAdmin) #Registered client and admin model 
 

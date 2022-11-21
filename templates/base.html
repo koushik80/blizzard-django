@@ -4,7 +4,7 @@
 <html>
 
 <head>
-    <title>ßLIZZARD Auto Oy {% block title %}    {% endblock %}</title>
+    <title>ßLIZZARD Auto Oy {% block title %} {% endblock %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
 
@@ -30,10 +30,8 @@
 
     <!-- Favicon icon -->
     <link rel="shortcut icon" href="{% static 'img/dev.png' %}" type="image/x-icon" >
-
     <!-- Google fonts -->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800%7CPlayfair+Display:400,700%7CRoboto:100,300,400,400i,500,700">
-
     <link rel="stylesheet" type="text/css" href="{% static 'css/ie10-viewport-bug-workaround.css' %}">
 
     <script  src="{% static 'js/ie-emulation-modes-warning.js' %}"></script>
@@ -41,14 +39,11 @@
 <body>
 <div class="page_loader"></div>
 
-
 {% include 'includes/topbar.html' %}
 
 {% include 'includes/navbar.html' %}
 
-
 {% block content %}
-
 
 {% endblock %}
 
@@ -61,9 +56,7 @@
     </form>
 </div>
 
-
 {% include 'includes/footer.html' %}
-
 
 <script src="{% static 'js/jquery-2.2.0.min.js' %}"></script>
 <script src="{% static 'js/popper.min.js' %}"></script>
@@ -84,7 +77,6 @@
 <script  src="{% static 'js/lightgallery-all.js' %}"></script>
 <script  src="{% static 'js/jnoty.js' %}"></script>
 <script  src="{% static 'js/app.js' %}"></script>
-
 
 </body>
 
