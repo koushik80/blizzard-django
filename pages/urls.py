@@ -1,7 +1,7 @@
 from django.urls import path
 from .import views
 
-# here are my all pages
+# here I added my all urls for pages
 urlpatterns = [
     path('', views.home, name='home'),
     path('about', views.about, name='about'),

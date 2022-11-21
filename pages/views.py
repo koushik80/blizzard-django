@@ -6,7 +6,7 @@ from django.contrib.auth.models import User
 from django.contrib import messages
 
 
-# here are my pages views for blizzard.
+# here are pages views for blizzard.
 # Created functions for home, about, services and contact for the urls.
 
 def home(request):
@@ -49,7 +49,7 @@ def contact(request):
         phone = request.POST['phone']
         message = request.POST['message']
 
-        email_subject = 'You have a new message from Blizzard Auto website regarding ' + subject
+        email_subject = 'You have a new message from Blizzard Auto regarding ' + subject
         message_body = 'Name: ' + name + '. Email: ' + email + '. Phone: ' + phone + '. Message: ' + message
 
         admin_info = User.objects.get(is_superuser=True)
