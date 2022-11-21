@@ -493,7 +493,7 @@ li.active.filtr-button.filtr a{
 }
 
 .sub-banner .page-info .breadcrumb-area ul li a:hover {
-    color:#f0151f;
+    color: #09b9f3;
 }
 
 
@@ -502,7 +502,7 @@ li.active.filtr-button.filtr a{
 }
 
 .pagination > li > .active {
-    background:#f0151f;
+    background: #09b9f3;
 }
 
 .pagination > li > a:hover {

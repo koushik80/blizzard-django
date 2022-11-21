@@ -5,7 +5,7 @@ from .views import inquiry
 
 # Created tests here.
 
-class ContactTests(TestCase):  # new
+class ContactTests(TestCase):
     def test_url_exists_at_correct_location(self):
         response = self.client.get("/contact")
         self.assertEqual(response.status_code, 200)

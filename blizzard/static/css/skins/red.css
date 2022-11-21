@@ -1,13 +1,13 @@
 .button-theme {
-    background:#f0151f;
+    background: #09b9f3;
 }
 
 .button-theme:hover {
-    background: #dc141d;
+    background: #09b9f3;
 }
 
 .btn-border {
-    color: #f0151f;
+    color: #09b9f3;
     border: solid 1px #f0151f;
 }
 
@@ -25,28 +25,28 @@
 }
 
 .blog-2 .b-btn{
-    color: #f0151f;
+    color: #09b9f3;
 }
 
 
 .vehicles-box .detail h5{
-    color: #f0151f;
+    color: #09b9f3;
 }
 
 .about-car .best-used-car h3 span{
-    color: #f0151f;
+    color: #09b9f3;
 }
 
 .service-center .about-text h3 span{
-    color: #f0151f;
+    color: #09b9f3;
 }
 
 .service-center ul li i{
-    color: #f0151f;
+    color: #09b9f3;
 }
 
 .service-box ul li i {
-    color: #f0151f;
+    color: #09b9f3;
 }
 
 .shop-info p a{
@@ -70,15 +70,15 @@
 }
 
 .service-info-2 .icon {
-    color: #f0151f;
+    color: #09b9f3;
 }
 
 .about-slider-box:before {
-    border: 2px solid #f0151f;
+    border: 2px solid #09b9f3;
 }
 
 .question .contact-info li i{
-    color: #f0151f;
+    color: #09b9f3;
 }
 
 .price-box-2{
@@ -94,11 +94,11 @@
 }
 
 .category-subtitle{
-    color: #f0151f;
+    color: #09b9f3;
 }
 
 .car-box .footer ul li a:hover{
-    color: #f0151f;
+    color: #09b9f3;
 }
 
 .car-model-2 .ratings-2 span{
@@ -110,7 +110,7 @@
 }
 
 .overlap-btn:hover{
-    background: #f0151f;
+    background: #09b9f3;
     border: solid 1px #f0151f;
 }
 
@@ -131,7 +131,7 @@
 }
 
 .car-model-2 .price-box .del-2 {
-    color: #f0151f;
+    color: #09b9f3;
 }
 
 .change-view-btn {
@@ -141,8 +141,8 @@
 }
 
 .active-view-btn{
-    background: #f0151f;
-    border: solid 1px #f0151f;
+    background: #09b9f3;
+    border: solid 1px #09b9f3;
     color: #fff;
 }
 
@@ -159,11 +159,11 @@
 }
 
 .navbar-light .navbar-toggler{
-    background: #f0151f;
+    background: #09b9f3;
 }
 
 .banner h4 {
-    color: #f0151f;
+    color: #09b9f3;
 }
 
 .shop-info .price del {
@@ -171,7 +171,7 @@
 }
 
 .counter-box h1{
-    color: #f0151f;
+    color: #09b9f3;
 }
 
 .details-banner .cover-buttons ul li a:hover {
@@ -183,7 +183,7 @@
 }
 
 .dashboard-nav ul {
-    border-bottom: 1px solid #dc141d;
+    border-bottom: 1px solid #09b9f3;
 }
 
 .new-user-box .follow:hover{
@@ -192,11 +192,11 @@
 }
 
 .setting-button i{
-    color:#f0151f;
+    color: #09b9f3;
 }
 
 #page_scroller {
-    background:#f0151f;
+    background: #09b9f3;
 }
 
 .dashboard-nav{
@@ -206,9 +206,9 @@
 /** Tab box 2 start **/
 .tab-box-2 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     background: transparent;
-    border-bottom: solid 2px#f0151f;
+    border-bottom: solid 2px #09b9f3;
     border-radius: 0;
-    color:#f0151f;
+    color: #09b9f3;
 }
 
 .tab-box .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
@@ -217,7 +217,7 @@
 }
 
 .pricing-1 .plan-list ul li i{
-    color: #f0151f;
+    color: #09b9f3;
 }
 
 .checkbox-theme input[type="checkbox"]:checked + label::before {
@@ -225,19 +225,19 @@
 }
 
 .average-rating{
-    background: #f0151f;
+    background: #09b9f3;
 }
 
 .rating-width{
-    background: #f0151f;
+    background: #09b9f3;
 }
 
 .heading-car h3 span{
-    color: #f0151f;
+    color: #09b9f3;
 }
 
 .btn-secton .carousel-indicators .active {
-    background-color: #f0151f;
+    background-color: #09b9f3;
 }
 
 .rating-count span{
@@ -265,8 +265,8 @@ input[type=checkbox]:checked + label:before {
 }
 
 .btn-theme{
-    background:#f0151f;
-    border: solid 1px#f0151f;
+    background:#09b9f3;
+    border: solid 1px #09b9f3;
 }
 
 .featured-car-4 .carousel-indicators li.active {
@@ -469,19 +469,19 @@ footer .footer-item .contact-info li label a:hover {
 }
 
 .sb-2{
-    background: #f0151f;
+    background: #09b9f3;
 }
 
 .best-used-car ul li i {
-    color: #f0151f;
+    color: #09b9f3;
 }
 
 .posts-by-category ul li span:hover{
-    color: #f0151f;
+    color: #09b9f3;
 }
 
 li.active.filtr-button.filtr a{
-    color:#f0151f;
+    color: #09b9f3;
 }
 
 .coming-soon-inner h1 span{
@@ -489,7 +489,7 @@ li.active.filtr-button.filtr a{
 }
 
 .filteriz-navigation li a:hover{
-    color:#f0151f;
+    color: #09b9f3;
 }
 
 .sub-banner .page-info .breadcrumb-area ul li a:hover {
@@ -498,20 +498,20 @@ li.active.filtr-button.filtr a{
 
 
 .show-more-options i{
-    color:#f0151f;
+    color: #09b9f3;
 }
 
 .pagination > li > .active {
-    background:#f0151f;
+    background: #09b9f3;
 }
 
 .pagination > li > a:hover {
-    background:#f0151f;
+    background: #09b9f3;
     color: #fff;
 }
 
 .contact-section .btn-section .active-bg {
-    color:#f0151f;
+    color: #09b9f3;
 }
 
 .read-more {
@@ -578,7 +578,7 @@ li.active.filtr-button.filtr a{
 }
 
 .price-box-3 {
-    color: #f0151f;
+    color: #09b9f3;
 }
 
 .vs{
@@ -602,7 +602,7 @@ li.active.filtr-button.filtr a{
 }
 
 .breadcrumb-nav ul .active {
-    color:#f0151f;
+    color: #09b9f3;
 }
 
 .photoUpload {
@@ -610,7 +610,7 @@ li.active.filtr-button.filtr a{
 }
 
 .typography-page mark.color {
-    background-color:#f0151f;
+    background-color: #09b9f3;
 }
 
 .faq-accordion .card-header .collapsed.card-title:before {
@@ -630,12 +630,12 @@ li.active.filtr-button.filtr a{
 }
 
 .bg-active {
-    background: #f0151f;
+    background: #09b9f3;
     color: #fff!important;
 }
 
 .banner h3 span{
-    color: #f0151f;
+    color: #09b9f3;
 }
 
 .typography .list-3 li:before, .list-2 li:before, .list-1 li:before {
@@ -665,11 +665,11 @@ li.active.filtr-button.filtr a{
 }
 
 .tabbing-box .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-    background-color:#f0151f;
+    background-color: #09b9f3;
 }
 
 .tabbing-box .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link:hover {
-    background-color:#f0151f;
+    background-color: #09b9f3;
 }
 
 .map-marker:hover {
@@ -702,7 +702,7 @@ li.active.filtr-button.filtr a{
 }
 
 .slick-arrow-buton:hover{
-    background:#f0151f;
+    background: #09b9f3;
     color: #fff;
 }
 
