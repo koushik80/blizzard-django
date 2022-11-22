@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 
-{% block title %} | Home {% endblock %}
+{% block title %} | Home {% endblock %}  <!-- For showing dynamic in tab -->
 {% block content %}
 
 {% load humanize %}
@@ -172,7 +172,7 @@
                             </div>
                             <ul class="facilities-list clearfix">
                                 <li>{{car.fuel_type}}</li>
-                                <li>{{car.miles | intcomma}} km</li>
+                                <li>{{car.miles | intcomma}} km</li> <!-- from humanize to show comma in km -->
                                 <li>{{car.transmission}}</li>
                                 <li>{{car.body_style}}</li>
                                 <li>{{car.color}}</li>
@@ -278,7 +278,7 @@
                             <p class="cartype">{{car.body_style}}</p>
                         </div>
                         <div class="pull-right">
-                            <p class="price">€{{car.price | intcomma}}</p>
+                            <p class="price">€{{car.price | intcomma}}</p> <!-- from humanize to show comma in price -->
                         </div>
                     </div>
                 </div>

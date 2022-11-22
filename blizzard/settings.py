@@ -11,10 +11,10 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 import sys
 import os
-import dj_database_url
+import dj_database_url   #for heroku
 
 from pathlib import Path
-from decouple import config
+from decouple import config  #for env variable
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -33,15 +33,15 @@ SECRET_KEY = config('APP_SECRET_KEY')
 #DEBUG = True
 DEBUG = config('DEBUG', cast=bool)
 
-#for herokuapp
+#for heroku app
 #ALLOWED_HOSTS = ['blizzard-car.herokuapp.com', 'blizzardauto.fi', 'www.blizzardauto.fi' ]
 
 
 ALLOWED_HOSTS = []
-LOGIN_REDIRECT_URL = 'dashboard'
+LOGIN_REDIRECT_URL = 'dashboard' #after successful login user will be redirected to the dashboard
 
 
-# Here are all my Application definition
+# Here are all of my installed Applications
 
 INSTALLED_APPS = [
     'cars.apps.CarsConfig',
@@ -61,10 +61,17 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
 
-    #Social account providers
+    #Social account providers:
     'allauth.socialaccount.providers.facebook',
     'allauth.socialaccount.providers.google',
 ]
+
+#lessons for social login:
+#https://www.digitalocean.com/community/tutorials/how-to-authenticate-django-apps-using-django-allauth
+#https://learndjango.com/tutorials/django-allauth-tutorial
+#https://jinkwon711.medium.com/django-allauth-facebook-login-b536444cbc6b
+#https://www.section.io/engineering-education/django-google-oauth/
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -95,7 +102,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'blizzard.wsgi.application'
+WSGI_APPLICATION = 'blizzard.wsgi.application' #as mentioned in wsgi.py
 
 
 # Database
