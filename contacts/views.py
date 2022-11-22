@@ -21,10 +21,10 @@ def inquiry(request):
         phone = request.POST['phone']
         message = request.POST['message']
 
-        if request.user.is_authenticated:
+        if request.user.is_authenticated: #if an user is interested to send inquiry for desired car
             user_id = request.user.id
             has_contacted = Contact.objects.all().filter(car_id=car_id, user_id=user_id)
-            if has_contacted:
+            if has_contacted: #if user tries to send inquiry 2nd time for same car he will receive error message
                 messages.error(request, 'You have already made an inquiry about this car. Please wait until we get back to you.')
                 return redirect('/cars/'+car_id)
 
@@ -42,7 +42,7 @@ def inquiry(request):
                 fail_silently=False,
             )
 
-        contact.save()
+        contact.save()  # it will save inquiry to the database
         messages.success(request, 'Your request has been submitted, we will get back to you shortly soon.')
 
         return redirect('/cars/'+car_id)
