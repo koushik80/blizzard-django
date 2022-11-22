@@ -9768,6 +9768,11 @@ a.nav-link.active{
   color: #fff !important;
 }
 
+.blz-admin .nav-item {
+    float: right;
+    display: inline-block;
+}
+
 
 
 
