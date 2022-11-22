@@ -3,7 +3,7 @@ from django.urls import reverse, resolve
 from .models import Contact
 from .views import inquiry
 
-# Created tests here.
+# Created test for contact and contact model here.
 
 class ContactTests(TestCase):
     def test_url_exists_at_correct_location(self):

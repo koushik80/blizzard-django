@@ -3,7 +3,7 @@ from django.urls import reverse, resolve
 from .models import Car
 from .views import cars, search
 
-# Created url and functions tests here.
+# Created url tests and functions tests here.
 
 class CarsTests(TestCase):
     def test_url_exists_at_correct_location(self):

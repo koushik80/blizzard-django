@@ -2,7 +2,7 @@ from django.shortcuts import render, get_object_or_404
 from .models import Car
 from django.core.paginator import EmptyPage, PageNotAnInteger, Paginator
 
-# Created functions  for car views here.
+# Created functions  for cars, to search by city, year, style &transmission, details of car.
 
 def cars(request):
     cars = Car.objects.order_by('-created_date')

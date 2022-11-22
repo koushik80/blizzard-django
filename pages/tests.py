@@ -3,7 +3,7 @@ from django.urls import reverse, resolve
 from .models import Team, Client
 from .views import home, about, services, contact
 
-# Created tests here.
+# Created functions for testing pages and models here.
 
 class HomepageTests(TestCase):
     def test_url_exists_at_correct_location(self):

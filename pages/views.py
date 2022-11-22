@@ -28,7 +28,6 @@ def home(request):
     }
     return render(request, 'pages/home.html', data)
 
-
 def about(request):
     teams = Team.objects.all()
     data = {
@@ -36,10 +35,8 @@ def about(request):
     }
     return render(request, 'pages/about.html', data)
 
-
 def services(request):
     return render(request, 'pages/services.html')
-
 
 def contact(request):
     if request.method == 'POST':
@@ -66,6 +63,5 @@ def contact(request):
 
         messages.success(request, 'Thank you for contacting us. We will get back to you shortly')
         return redirect('contact')
-
 
     return render(request, 'pages/contact.html')

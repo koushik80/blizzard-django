@@ -3,7 +3,7 @@ from django.urls import reverse, resolve
 from .views import login, register, logout
 
 
-# Created Login and Register tests here.
+# Created functions for testing Login and Register here.
 
 class LoginAccountsTests(TestCase):
 

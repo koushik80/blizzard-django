@@ -1,7 +1,7 @@
 from django.urls import path
 from . import views
 
-# added url urls for the car
+# added urls for the car, searching and specification of the car
 
 urlpatterns = [
     path('', views.cars, name='cars'),

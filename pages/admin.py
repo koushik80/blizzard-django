@@ -24,5 +24,5 @@ class ClientAdmin(admin.ModelAdmin):
     list_per_page = 10
     list_filter = ('name', 'email', 'subject')
 
-admin.site.register(Client, ClientAdmin) #Registered client and admin model 
+admin.site.register(Client, ClientAdmin) #Registered client and admin model
 
