@@ -68,12 +68,12 @@
                     </li>
                     <li class="nav-item">
                         <a
-                        {% if 'inquiry' in request.path %}
+                        {% if 'admin' in request.path %}
                           class="nav-link active"
                           {% else %}
                           class="nav-link"
                           {% endif %}
-                          href="admin"><i class="fa fa-shield"></i>
+                          href="/admin"><i class="fa fa-shield"></i>
                             Admin
                         </a>
                     </li>
