@@ -32,15 +32,17 @@ def register(request):
         password = request.POST['password']
         confirm_password = request.POST['confirm_password']
 
+         # condition for matching password & confirm_password
         if password == confirm_password:
-            if User.objects.filter(username=username).exists():
+            #checking if the username is exist
+            if User.objects.filter(username=username).exists(): # here one username from the variable declared and another username form the User model
                 messages.error(request, 'Username already exists!')
                 return redirect('register')
-            else:
+            else: #checking if the email is exist
                 if User.objects.filter(email=email).exists():
                     messages.error(request, 'Email already exists!')
                     return redirect('register')
-                else:
+                else: # if username and email is not exist then user will be logged in will be redirected to the dashboard page
                     user = User.objects.create_user(first_name=firstname, last_name=lastname, email=email, username=username, password=password)
                     auth.login(request, user)
                     messages.success(request, 'You are now logged in.')
@@ -49,15 +51,15 @@ def register(request):
                     messages.success(request, 'You are registered successfully.')
                     return redirect('login')
 
-        else:
+        else: # if not than the condition will throw error and will be redirected to register page
             messages.error(request, 'Password do not match')
             return redirect('register')
     else:
         return render(request, 'accounts/register.html')
 
-
+# user must have to be logged in to access dashboard
 @login_required(login_url = 'login')
-def dashboard(request):
+def dashboard(request): # after successful login user can see their inquiry for the car if the previously send
     user_inquiry = Contact.objects.order_by('-create_date').filter(user_id=request.user.id)
 
     data = {
