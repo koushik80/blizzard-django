@@ -358,7 +358,7 @@
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$390000$dILN5jb2hhQFZ6UXF03xXe$c+G8Q+vueKpiqMp7Daw0IAoHvCv0Wy7z+5FDbI78BCo=",
-        "last_login": "2022-10-25T09:44:44.116Z",
+        "last_login": "2022-11-22T23:38:39.699Z",
         "is_superuser": true,
         "username": "Djangoadmin",
         "first_name": "Koushik",
@@ -367,23 +367,6 @@
         "is_staff": true,
         "is_active": true,
         "date_joined": "2022-09-22T11:27:01Z",
-        "groups": [],
-        "user_permissions": []
-    }
-},
-{
-    "model": "auth.user",
-    "fields": {
-        "password": "pbkdf2_sha256$390000$99dpOut0BtpcODj4t9Yj4Z$F/Yjv2lZ74SA2mB0Qi02O5wVVlRXjOUd797JqL1PKzQ=",
-        "last_login": "2022-10-05T15:11:26.161Z",
-        "is_superuser": false,
-        "username": "rajon",
-        "first_name": "Koushik",
-        "last_name": "Dey",
-        "email": "raj_on@hotmail.com",
-        "is_staff": false,
-        "is_active": true,
-        "date_joined": "2022-09-29T20:42:11.324Z",
         "groups": [],
         "user_permissions": []
     }
@@ -426,7 +409,7 @@
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$390000$P3TYhYINyH5bJEWXVBdQ8c$yJpfoLT+a4AnjUMEcKO7+XjbFBxFMxS84VlwSuKR2RY=",
-        "last_login": "2022-10-25T13:05:25.419Z",
+        "last_login": "2022-11-22T23:44:06.605Z",
         "is_superuser": false,
         "username": "luna",
         "first_name": "Luna",
@@ -435,6 +418,23 @@
         "is_staff": false,
         "is_active": true,
         "date_joined": "2022-10-13T20:18:10.449Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$390000$UaFgvCy3aOCyc4GKqm4Oyr$RWUidXEm5upf3oZ77dPlrBpFQuQoAEjNJ3jvARfFwVs=",
+        "last_login": "2022-11-09T23:59:39.734Z",
+        "is_superuser": false,
+        "username": "riina",
+        "first_name": "Riina",
+        "last_name": "Dey",
+        "email": "riina@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-11-09T23:59:39.459Z",
         "groups": [],
         "user_permissions": []
     }
@@ -2037,6 +2037,60 @@
         ],
         "object_id": "10",
         "object_repr": "luna@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+        "action_time": "2022-11-21T20:27:28.305Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "2",
+        "object_repr": "rajon",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+        "action_time": "2022-11-22T23:39:34.978Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "16",
+        "object_repr": "luna@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 87,
+    "fields": {
+        "action_time": "2022-11-22T23:39:34.990Z",
+        "user": [
+            "Djangoadmin"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "15",
+        "object_repr": "koushik.dey@live.com",
         "action_flag": 3,
         "change_message": ""
     }
