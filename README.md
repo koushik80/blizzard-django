@@ -3,7 +3,7 @@
 <div>
 <h4 align="center"><a href="https://blizzard-car.herokuapp.com/">ßLIZZARD @ Accelerate the excitement</a></h4>
 </div>
-<h4 align="center">Note: It’s a matter of regret that unfortunately, this application will not work as live as Heroku implemented paid service for deployment. I am trying to find out a possible solution to deploy in another hosting service. Thanks for realizing it.</h4>
+<h4 align="center">Note: It’s a matter of regret that unfortunately, this application might not work as live as Heroku implemented paid service from 28th November for deployment. I am trying to find out a possible solution to deploy in another hosting service. Thanks for realizing it.</h4>
 <br>
 
 ---
