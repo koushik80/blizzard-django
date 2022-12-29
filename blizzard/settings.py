@@ -36,7 +36,13 @@ DEBUG = config('DEBUG', cast=bool)
 #for heroku app
 #ALLOWED_HOSTS = ['blizzard-car.herokuapp.com', 'blizzardauto.fi', 'www.blizzardauto.fi' ]
 
+#for pythonanywhere deploy
+#ALLOWED_HOSTS = ['blizzard-car.com', 'blizzardauto.fi', 'www.blizzardauto.fi' ]
 
+#for AWS:
+#ALLOWED_HOSTS = ['blizzard-dev.us-west-2.elasticbeanstalk.com']
+
+#for local server
 ALLOWED_HOSTS = []
 LOGIN_REDIRECT_URL = 'dashboard' #after successful login user will be redirected to the dashboard
 
@@ -108,6 +114,7 @@ WSGI_APPLICATION = 'blizzard.wsgi.application' #as mentioned in wsgi.py
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
@@ -115,8 +122,8 @@ DATABASES = {
         'USER': 'postgres',
         'PASSWORD': config('DB_PASSWORD'),
         'HOST': 'localhost',
-    }
-}
+     }
+ }
 
 #for heroku server....use password before
 
