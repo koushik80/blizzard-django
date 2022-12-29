@@ -16,6 +16,11 @@ import dj_database_url   #for heroku
 from pathlib import Path
 from decouple import config  #for env variable
 
+#from dotenv import load_dotenv
+
+
+#load_dotenv()
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -24,14 +29,16 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-#SECRET_KEY = config('APP_SECRET_KEY')
+SECRET_KEY = config('APP_SECRET_KEY')
+#SECRET_KEY = os.environ.get('APP_SECRET_KEY', 'some_random_default_string')
 
-SECRET_KEY = 'kjmv8)-wh#px07)(g3=-j750rqz3o7tci9c*xovnk2mq8d##1l'
+#SECRET_KEY = ''
 
 #SECURITY WARNING: don't run with debug turned on in production!
 
-DEBUG = True
-#DEBUG = config('DEBUG', cast=bool)
+#DEBUG = True
+DEBUG = config('DEBUG', cast=bool)
+#DEBUG= os.environ.get('DEBUG', False)
 
 #for heroku app
 #ALLOWED_HOSTS = ['blizzard-car.herokuapp.com', 'blizzardauto.fi', 'www.blizzardauto.fi' ]
@@ -115,19 +122,19 @@ WSGI_APPLICATION = 'blizzard.wsgi.application' #as mentioned in wsgi.py
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
 
-#DATABASES = {
-    #'default': {
-        #'ENGINE': 'django.db.backends.postgresql',
-        #'NAME': 'blizzard_db',
-        #'USER': 'postgres',
-        #'PASSWORD': config('DB_PASSWORD'),
-        #'HOST': 'localhost',
-     #}
- #}
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'blizzard_db',
+        'USER': 'postgres',
+        'PASSWORD': config('DB_PASSWORD'),
+        'HOST': 'localhost',
+     }
+ }
 
 #for heroku server....use password before
 
-DATABASES = {'default': dj_database_url.config(default='postgres://postgres:blizzardrajon@localhost/blizzard_db')}
+#DATABASES = {'default': dj_database_url.config(default='postgres://postgres:my_password@localhost/blizzard_db')}
 
 DEFAULT_AUTO_FIELD='django.db.models.AutoField'
 
@@ -186,19 +193,20 @@ MESSAGE_TAGS = {
     messages.ERROR: 'danger',
 }
 
-#SITE_ID = 1
+SITE_ID = 1
 
 # for herokuapp
 
-SITE_ID = 3
+#SITE_ID = 3
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_HOST_USER = 'finfotek80@gmail.com'
-#EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
+EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
+#EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
 #for herokuapp
-EMAIL_HOST_PASSWORD = 'rvallmyljmhagcli'
+#EMAIL_HOST_PASSWORD = ''
 EMAIL_USE_TLS = True
 
 
